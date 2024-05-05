@@ -98,7 +98,7 @@ const Navbar = () => {
               className="placeholder:text-gray-300  mt-1 lg:w-[450px] md:w-[350px] sm:w-[240px] sm:h-10  lg:h-10 md:h-10 border-2 border-[#086AAE] focus:outline-none rounded-md pl-3"
             />
             <div className="absolute inset-y-0 right-0 flex items-center mr-2">
-              <FaSearch className="text-white bg-[#086AAE] text-3xl rounded-full px-2 py-2" />
+              <FaSearch className="text-white bg-[#086AAE] text-3xl rounded-full px-2 mt-1 py-2" />
             </div>
           </div>
 
@@ -489,7 +489,7 @@ const Navbar = () => {
       </div>
 
       {/* mobile part */}
-      <div className="p-4 z-[999] fixed top-20   lg:hidden md:hidden sm:hidden  ">
+      <div className="p-4 z-[999] top-20 -mt-5  lg:hidden md:hidden sm:hidden  ">
         <div className="mt-1 flex justify-between  ">
           <section className="flex items-center gap-11">
             <FiMenu
@@ -501,7 +501,7 @@ const Navbar = () => {
             <input
               type="search"
               placeholder="Search...."
-              className="placeholder:text-gray-300  mt-1 w-64 h-10   border-2 border-[#086AAE] focus:outline-none rounded-md pl-3"
+              className="placeholder:text-gray-300  mt-1 w-64 h-10 sm:h-10 sm:w-64  border-2 border-[#086AAE] focus:outline-none rounded-md pl-3"
             />
             <div className="absolute inset-y-0 right-0 flex items-center mr-2">
               <FaSearch className="text-white bg-[#086AAE] text-xl rounded-full px-1 py-1" />

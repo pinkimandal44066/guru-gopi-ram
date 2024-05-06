@@ -21,7 +21,8 @@ const Second = () => {
   <img src={familyimg} alt='' className='w-full lg:w-auto mb-8 lg:mb-0' />
 </div>
 {/* first part pinki */}
-<div className="lg:grid lg:grid-cols-6 md:grid md:grid-cols-6 hidden bg-white  shadow-xl mx-28 -mt-14  h-24 overflow-hidden  rounded-l-2xl rounded-r-2xl ">
+<div className="lg:grid lg:grid-cols-6 hidden bg-white  shadow-xl mx-32 -mt-14  h-24 overflow-hidden 
+ rounded-l-2xl rounded-r-2xl ">
   
       <div className="col-span-1 bg-white flex flex-col justify-center items-center border-r border-blue-500">
         <MdOutlineLocalHospital className="text-blue-500 text-xl " />
@@ -51,7 +52,7 @@ const Second = () => {
     </div>
 
 {/* swiper part */}
-<div className="flex lg:hidden md:hidden items-center font-Poppins justify-center rounded-full  ">
+<div className="flex lg:hidden mx-4  items-center font-Poppins justify-center rounded-full  ">
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -72,48 +73,49 @@ const Second = () => {
           
           }}
         >
-          <SwiperSlide>
-          <div className="col-span-1 shadow-xl border p-1 border-gray-100 flex flex-col justify-center items-center">
-        <MdOutlineLocalHospital className="text-blue-500 text-xl " />
+   
+             <SwiperSlide>
+  <div className="col-span-1 shadow-xl border p-3 border-gray-100 flex flex-col justify-center items-center rounded-xl">
+    <MdOutlineLocalHospital className="text-blue-500 text-xl" />
+    <span className="text-blue-500 text-sm h-10 font-bold text-center whitespace-nowrap">
+      Book Appointment
+    </span>
+  </div>
+</SwiperSlide>
+<SwiperSlide>
+  <div className="col-span-1 shadow-xl border p-3 border-gray-100 flex flex-col justify-center items-center rounded-xl">
+    <AiFillCodepenCircle className="text-blue-500 text-xl" />
+    <span className="text-blue-500 text-sm mx-4 h-10 rounded-xl font-bold text-center">Second Opinion</span>
+  </div>
+</SwiperSlide>
 
-        <span className="text-blue-500 text-sm mx-4 font-bold text-center ">Book Appointment</span>
-      </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="col-span-1 bg-white flex flex-col justify-center items-center border-r border-blue-500">
-        <MdOutlineLocalHospital className="text-blue-500 text-xl " />
+<SwiperSlide>
+  <div className="col-span-1 shadow-xl border p-3 border-gray-100 flex flex-col justify-center items-center rounded-xl">
+    <TbHealthRecognition className="text-blue-500 text-xl" />
+    <span className="text-blue-500 text-sm mx-4 h-10 rounded-xl font-bold text-center">Get Health Checkup</span>
+  </div>
+</SwiperSlide>
 
-        <span className="text-blue-500 text-sm mx-4 font-bold text-center ">Book Appointment</span>
-      </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="col-span-1 bg-white flex flex-col justify-center items-center border-r border-blue-500">
-        <MdOutlineLocalHospital className="text-blue-500 text-xl " />
+<SwiperSlide>
+  <div className="col-span-1 shadow-xl border p-3 border-gray-100 flex flex-col justify-center items-center rounded-xl">
+    <TbBrandBooking className="text-blue-500 text-xl" />
+    <span className="text-blue-500 text-sm mx-4 h-10 rounded-xl font-bold text-center">Book Virtual Consultation</span>
+  </div>
+</SwiperSlide>
 
-        <span className="text-blue-500 text-sm mx-4 font-bold text-center ">Book Appointment</span>
-      </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="col-span-1 bg-white flex flex-col justify-center items-center border-r border-blue-500">
-        <MdOutlineLocalHospital className="text-blue-500 text-xl " />
+<SwiperSlide>
+  <div className="col-span-1 shadow-xl border p-3 border-gray-100 flex flex-col justify-center items-center rounded-xl">
+    <LuTestTube className="text-blue-500 text-xl" />
+    <span className="text-blue-500 text-sm mx-4 h-10 rounded-xl font-bold text-center">Feedback</span>
+  </div>
+</SwiperSlide>
 
-        <span className="text-blue-500 text-sm mx-4 font-bold text-center ">Book Appointment</span>
-      </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="col-span-1 bg-white flex flex-col justify-center items-center border-r border-blue-500">
-        <MdOutlineLocalHospital className="text-blue-500 text-xl " />
-
-        <span className="text-blue-500 text-sm mx-4 font-bold text-center ">Book Appointment</span>
-      </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="col-span-1 bg-white flex flex-col justify-center items-center border-r border-blue-500">
-        <MdOutlineLocalHospital className="text-blue-500 text-xl " />
-
-        <span className="text-blue-500 text-sm mx-4 font-bold text-center ">Book Appointment</span>
-      </div>
-          </SwiperSlide>
+<SwiperSlide>
+  <div className="col-span-1 shadow-xl border p-3 border-gray-100 flex flex-col justify-center items-center rounded-xl">
+    <AiFillCodepenCircle className="text-blue-500 text-xl" />
+    <span className="text-blue-500 text-sm mx-4 h-10 rounded-xl font-bold text-center">Book a Test</span>
+  </div>
+</SwiperSlide>
           
         </Swiper>
       </div>

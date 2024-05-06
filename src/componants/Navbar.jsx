@@ -6,6 +6,7 @@ import "../index.css";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 // import { useLocation } from "react-router-dom";
 
 
@@ -121,24 +122,36 @@ const Navbar = () => {
           onMouseEnter={togglePatientMenu}
           onMouseLeave={togglePatientMenu}
         >
-          <div className="flex">
-            <h1
-              className={({ isActive }) =>
-                `duration-200 ${
-                  isActive ? "text-[#C074B3] font-bold" : "text-black"
-                } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline  transition-all duration-300  ease-in-out transform font-medium  hover:scale-105  `
-              }
-            >
-              Patient
-            </h1>
-            <IoMdArrowDropdown className="mt-1.5" />
-          </div>
+       <div className="flex cursor-pointer">
+
+       <nav1
+    className={({ isActive }) =>
+      `duration-200 ${
+        isActive ? "text-[#C074B3] font-bold" : "text-black"
+      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline transition-all duration-300 ease-in-out transform font-medium hover:scale-105`
+    }
+  >
+    Patient
+  </nav1>
+  {/* <NavLink 
+    to={"/about"}
+    className={({ isActive }) =>
+      `duration-200 ${
+        isActive ? "text-[#C074B3] font-bold" : "text-black"
+      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline transition-all duration-300 ease-in-out transform font-medium hover:scale-105`
+    }
+  >
+    Patient
+  </NavLink> */}
+  <IoMdArrowDropdown className="mt-1.5" />
+</div>
+
           {isPatientMenuOpen && (
             <div
               id="mega-menu-full-image-dropdown"
-              className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
+              // className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
             >
-              <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
+              {/* <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
                 <ul
                   className="hidden mb-4 space-y-4  md:block"
                   aria-labelledby="mega-menu-full-image-button"
@@ -164,8 +177,10 @@ const Navbar = () => {
                     </h1>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
+
+            
           )}
         </div>
 
@@ -173,9 +188,9 @@ const Navbar = () => {
           className="relative"
           onMouseEnter={toggleCentresMenu}
           onMouseLeave={toggleCentresMenu}
-        >
-          <div className="flex">
-            <h1
+        > 
+          <div className="flex cursor-pointer">
+            <nav1
               className={({ isActive }) =>
                 `duration-200 ${
                   isActive ? "text-[#C074B3] font-bold" : "text-black"
@@ -183,15 +198,15 @@ const Navbar = () => {
               }
             >
               Centres Of Excellence
-            </h1>
+            </nav1>
             <IoMdArrowDropdown className="mt-1.5" />
           </div>
           {isCentresMenuOpen && (
             <div
               id="mega-menu-full-image-dropdown"
-              className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
+              // className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
             >
-              <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
+              {/* <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
                 <ul
                   className="hidden mb-4 space-y-4  md:block"
                   aria-labelledby="mega-menu-full-image-button"
@@ -217,7 +232,7 @@ const Navbar = () => {
                     </h1>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           )}
         </div>
@@ -227,8 +242,8 @@ const Navbar = () => {
           onMouseEnter={toggleHealthMenu}
           onMouseLeave={toggleHealthMenu}
         >
-          <div className="flex">
-            <h1
+          <div className="flex cursor-pointer">
+            <nav
               className={({ isActive }) =>
                 `duration-200 ${
                   isActive ? "text-[#C074B3] font-bold" : "text-black"
@@ -236,15 +251,15 @@ const Navbar = () => {
               }
             >
               Health Information
-            </h1>
+            </nav>
             <IoMdArrowDropdown className="mt-1.5" />
           </div>
           {isHealthMenuOpen && (
             <div
               id="mega-menu-full-image-dropdown"
-              className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
+              // className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
             >
-              <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
+              {/* <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
                 <ul
                   className="hidden mb-4 space-y-4  md:block"
                   aria-labelledby="mega-menu-full-image-button"
@@ -270,7 +285,7 @@ const Navbar = () => {
                     </h1>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           )}
         </div>
@@ -280,7 +295,7 @@ const Navbar = () => {
           onMouseEnter={toggleCareerMenu}
           onMouseLeave={toggleCareerMenu}
         >
-          <div className="flex">
+          <div className="flex cursor-pointer">
             <h1
               className={({ isActive }) =>
                 `duration-200 ${
@@ -295,9 +310,9 @@ const Navbar = () => {
           {isCareerMenuOpen && (
             <div
               id="mega-menu-full-image-dropdown"
-              className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
+              // className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
             >
-              <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
+              {/* <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
                 <ul
                   className="hidden mb-4 space-y-4  md:block"
                   aria-labelledby="mega-menu-full-image-button"
@@ -323,7 +338,7 @@ const Navbar = () => {
                     </h1>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           )}
         </div>
@@ -333,7 +348,7 @@ const Navbar = () => {
           onMouseEnter={toggleContactMenu}
           onMouseLeave={toggleContactMenu}
         >
-          <div className="flex">
+          <div className="flex cursor-pointer">
             <h1
               className={({ isActive }) =>
                 `duration-200 ${
@@ -348,9 +363,9 @@ const Navbar = () => {
           {isContactMenuOpen && (
             <div
               id="mega-menu-full-image-dropdown"
-              className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
+              // className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
             >
-              <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
+              {/* <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
                 <ul
                   className="hidden mb-4 space-y-4  md:block"
                   aria-labelledby="mega-menu-full-image-button"
@@ -376,7 +391,7 @@ const Navbar = () => {
                     </h1>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           )}
         </div>
@@ -386,7 +401,7 @@ const Navbar = () => {
           onMouseEnter={toggleAboutMenu}
           onMouseLeave={toggleAboutMenu}
         >
-          <div className="flex">
+          <div className="flex cursor-pointer">
             <h1
               className={({ isActive }) =>
                 `duration-200 ${
@@ -401,9 +416,9 @@ const Navbar = () => {
           {isAboutMenuOpen && (
             <div
               id="mega-menu-full-image-dropdown"
-              className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
+              // className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
             >
-              <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
+              {/* <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
                 <ul
                   className="hidden mb-4 space-y-4  md:block"
                   aria-labelledby="mega-menu-full-image-button"
@@ -429,7 +444,7 @@ const Navbar = () => {
                     </h1>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           )}
         </div>
@@ -439,7 +454,7 @@ const Navbar = () => {
           onMouseEnter={toggleBlogMenu}
           onMouseLeave={toggleBlogMenu}
         >
-          <div className="flex">
+          <div className="flex cursor-pointer">
             <h1
               className={({ isActive }) =>
                 `duration-200 ${
@@ -454,9 +469,9 @@ const Navbar = () => {
           {isBlogMenuOpen && (
             <div
               id="mega-menu-full-image-dropdown"
-              className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
+              // className="fixed rounded-md  bg-blue-100 z-[999] p-2  "
             >
-              <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
+              {/* <div className="flex flex-col max-w-screen-md py-3 mx-0 text-black text-sm font-medium px-6">
                 <ul
                   className="hidden mb-4 space-y-4  md:block"
                   aria-labelledby="mega-menu-full-image-button"
@@ -482,7 +497,7 @@ const Navbar = () => {
                     </h1>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           )}
         </div>

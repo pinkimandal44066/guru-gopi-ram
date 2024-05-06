@@ -7,7 +7,7 @@ import HomeSix from './HomeSix'
 import HomeSeven from './HomeSeven'
 import Footer from './Footer'
 import HomeFive from './HomeFive'
-import Text from './Text'
+
 
 
 const HomePage = () => {
@@ -19,8 +19,8 @@ const HomePage = () => {
     <HomeFive />
     <HomeSix />
     <HomeSeven />
-    <Text />
-  
+   
+   
   
     </div>
   )

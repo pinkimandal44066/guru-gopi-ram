@@ -103,13 +103,23 @@ font-semibold py-2.5 px-9 mt-8 rounded-lg mx-auto '>
           </SwiperSlide>
         </Swiper>
       </div>
-
+{/* 
       <button className='text-[#086AAE] flex lg:hidden md:hidden sm:hidden border-2 
   border-gray-100 shadow-2xl bg-white 
   font-semibold py-2.5 px-9 mt-4 rounded-lg mx-auto block
     '>
       View All
+    </button> */}
+
+
+<NavLink to='/centres'>
+<button className='text-[#086AAE] flex lg:hidden md:hidden sm:hidden border-2 
+  border-gray-100 shadow-2xl bg-white 
+  font-semibold py-2.5 px-9 mt-4 rounded-lg mx-auto 
+    '>
+      View All
     </button>
+</NavLink>
     </div>
   );
 };

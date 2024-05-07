@@ -8,7 +8,7 @@ const HomeFour = () => {
         <div className='max-w-screen-xl mx-auto flex flex-col lg:flex-row md:flex-row 
         justify-between gap-20 items-center p-10 mt-16 '>
             <div className='w-80'>
-                <h1 className='font-semibold text-2xl mx-2'>Patient Stories</h1>
+                <h1 className='font-semibold text-2xl  mx-2'>Patient Stories</h1>
                 <img className='w-80 mt-4 ' src={newnew} />
                 <h1 className='font-semibold mt-4'>Sunita Tickoo</h1>
                 <p >Today,I will be sharing my journey of battling cervical cancer.</p>

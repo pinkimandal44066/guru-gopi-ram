@@ -41,6 +41,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './componants/HomeFolder/HomePage';
 import LayOut from './componants/LayOut';
 import About from './componants/Aboutfolder/About';
+import Centres from './componants/Centres';
 
 const App = () => {
   return (
@@ -49,8 +50,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<LayOut />}>
             <Route path="/" element={<HomePage />} />
+         
+          <Route path='/about' element={<About />} /> 
+          <Route path='/centres' element={<Centres />} /> 
           </Route>
-          <Route path='/about' element={<About />} /> {/* Corrected path and element */}
         </Routes>
       </Router>
     </>

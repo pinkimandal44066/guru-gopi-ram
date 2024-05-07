@@ -12,7 +12,8 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import { MdOutlineCall } from "react-icons/md";
-import Button from "./Button";
+import { NavLink } from "react-router-dom";
+
 const HomeThird = () => {
   
   return (
@@ -23,7 +24,7 @@ const HomeThird = () => {
 
 
 
-<div className="lg:block  hidden">
+{/* <div className="lg:block  hidden">
 <div className="flex justify-end items-center mr-24 -mt-16">
   <button className="border text-blue-500  border-blue-500 px-10 py-2.5 rounded-md flex items-center w-52">
     <MdOutlineCall className="mr-1 mt-1" />
@@ -35,7 +36,7 @@ const HomeThird = () => {
     Book Appointment
   </button>
 </div>
-</div>
+</div> */}
 
 
 
@@ -57,14 +58,16 @@ const HomeThird = () => {
         </div>
       </div>
     
+    
 
-
+<NavLink to='/centres'>
 <button className='text-[#086AAE] lg:flex md:flex sm:flex hidden border-2 
-  border-gray-100 shadow-2xl bg-white 
-  font-semibold py-2.5 px-9 mt-8 rounded-lg mx-auto block
-    '>
-      View All
-    </button>
+border-gray-100 shadow-2xl bg-white 
+font-semibold py-2.5 px-9 mt-8 rounded-lg mx-auto '>
+  
+    View All
+</button>
+</NavLink>
 
       <div className="flex mt-10 lg:hidden md:hidden sm:hidden mx-6  items-center  justify-center   ">
         <Swiper

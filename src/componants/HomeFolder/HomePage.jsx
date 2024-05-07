@@ -7,6 +7,7 @@ import HomeSix from './HomeSix'
 import HomeSeven from './HomeSeven'
 import Footer from './Footer'
 import HomeFive from './HomeFive'
+import HomeEight from './HomeEight'
 
 
 
@@ -15,10 +16,12 @@ const HomePage = () => {
     <div>
     <Second />
     <HomeThird />
+    <HomeEight />
     {/* <HomeFour /> */}
     <HomeFive />
     <HomeSix />
     <HomeSeven />
+   
    
    
   

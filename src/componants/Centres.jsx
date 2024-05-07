@@ -176,7 +176,7 @@ care, Guru Hospita...</p>
 
 
 
-      <div className="flex mt-10 lg:hidden md:hidden sm:hidden mx-6  items-center  justify-center   ">
+      <div className="flex -mt-20 lg:hidden md:hidden sm:hidden mx-6  items-center  justify-center   ">
         <Swiper
           slidesPerView={1}
           spaceBetween={80}

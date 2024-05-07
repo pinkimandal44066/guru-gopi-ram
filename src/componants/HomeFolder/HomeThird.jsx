@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
-
+import { MdOutlineCall } from "react-icons/md";
 const HomeThird = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
@@ -19,6 +19,24 @@ const HomeThird = () => {
         <img src={img} alt="" />
       </div>
 
+
+
+<div className="lg:block  hidden">
+<div className="flex justify-end items-center mr-24 -mt-16">
+  <button className="border text-blue-500  border-blue-500 px-10 py-2.5 rounded-md flex items-center w-52">
+    <MdOutlineCall className="mr-1 mt-1" />
+    Call Us Now
+  </button>
+</div>
+<div className="flex justify-end items-center mr-24 mt-3">
+  <button className="border bg-blue-500 text-white border-blue-500 px-8 py-2.5 rounded-md flex items-center w-52">
+    Book Appointment
+  </button>
+</div>
+</div>
+
+
+      
       {/* Large screens (lg) */}
       <div className="  lg:flex md:flex sm:flex hidden  justify-center  gap-0 mt-6 ">
         <div className="flex ">
@@ -44,6 +62,8 @@ const HomeThird = () => {
           spaceBetween={80}
           freeMode={true}
           loop={true}
+          pagination={true}
+      modules={[EffectCoverflow, Pagination, Navigation]}
           breakpoints={{
             320: {
               slidesPerView: 1,
@@ -66,14 +86,17 @@ const HomeThird = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <img src={img04} className="w-80" />
+            <img src={img04} className="w-80 rounded-2xl " />
           </SwiperSlide>
         </Swiper>
       </div>
 
-      <button className="text-[#086AAE] flex lg:hidden md:hidden sm:hidden border-2 border-gray-100 shadow-2xl bg-white font-semibold w-20 h-10 mt-8 rounded-lg mx-auto block">
-        View All
-      </button>
+      <button className='text-[#086AAE] flex lg:hidden md:hidden sm:hidden border-2 
+  border-gray-100 shadow-2xl bg-white 
+  font-semibold py-2.5 px-9 mt-4 rounded-lg mx-auto block
+    '>
+      View All
+    </button>
     </div>
   );
 };

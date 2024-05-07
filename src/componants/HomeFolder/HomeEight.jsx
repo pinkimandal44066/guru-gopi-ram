@@ -51,7 +51,7 @@ const HomeEight = () => {
 //     </div>
 
 
-<div className='bg-[#e4f1fb] w-full h-fit '>
+<div className='bg-[#e4f1fb] w-full h-fit  lg:mt-1 -mt-8'>
   <div className='max-w-screen-xl mx-auto flex flex-col lg:flex-row md:flex-row 
         justify-between gap-20 items-center p-10 mt-20 '>
     <div className='w-full sm:ml-56 md:ml-0 ml-0 lg:ml-0'>

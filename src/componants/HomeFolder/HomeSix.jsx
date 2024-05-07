@@ -1,11 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import photo3 from '../../../public/images/photo3.png'
-import photo4 from '../../../public/images/photo4.png'
-import photo5 from '../../../public/images/photo5.png'
 import img1 from '../../../public/images/img1.png'
 import img2 from '../../../public/images/img2.png'
 import img3 from '../../../public/images/img3.png'
+import photo2 from '../../../public/images/photo2.png'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -27,7 +25,8 @@ const Homesix= () => {
 <div className='mt-10  '>
   
 
-  <div style={{ fontFamily: "Inter, sans-serif" }} className="flex  items-center font-Poppins justify-center 
+  <div style={{ fontFamily: "Inter, sans-serif" }} className=" items-center font-Poppins justify-center 
+  lg:block sm:block md:block hidden
   ">
     <Swiper
       effect={'coverflow'}
@@ -73,6 +72,60 @@ const Homesix= () => {
       <SwiperSlide><img src={img2} alt="photo4" /></SwiperSlide>
     </Swiper>
   </div>
+
+
+
+
+
+{/* mobile screen */}
+
+
+
+<div className="flex mt-8 lg:hidden md:hidden sm:hidden   items-center  justify-center   ">
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={80}
+          freeMode={true}
+          loop={true}
+          pagination={true}
+      modules={[EffectCoverflow, Pagination, Navigation]}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            640: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+            },
+          }}
+        >
+        <SwiperSlide>
+            <img src={img1} className=" h-96 w-96" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img3} className=" h-96 w-96" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img1} className=" h-96 w-96" />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img src={img2} className="h-96 w-96 " />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 

@@ -12,7 +12,9 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import { MdOutlineCall } from "react-icons/md";
+import Button from "./Button";
 const HomeThird = () => {
+  
   return (
     <div className="max-w-screen-xl mx-auto">
       <div className="max-w-[300px] mt-8 lg:mt-14 mx-auto">
@@ -34,6 +36,14 @@ const HomeThird = () => {
   </button>
 </div>
 </div>
+
+
+
+
+
+
+
+
 
 
       

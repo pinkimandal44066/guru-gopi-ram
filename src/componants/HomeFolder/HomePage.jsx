@@ -8,6 +8,7 @@ import HomeSeven from './HomeSeven'
 import Footer from './Footer'
 import HomeFive from './HomeFive'
 import HomeEight from './HomeEight'
+import Button from './Button'
 
 
 
@@ -21,6 +22,7 @@ const HomePage = () => {
     <HomeFive />
     <HomeSix />
     <HomeSeven />
+    <Button />
    
    
    

@@ -6,7 +6,7 @@ const Footer = () => {
   <div>
       <div className='max-w-screen-xl  lg:mx-auto  mx-5 '>
     <div className='flex justify-between  lg:gap-44 items-center lg:flex-row md:flex-row sm:flex-col 
-    flex-col'>
+    flex-col '>
        
       <div className='flex flex-col lg:mt-8 lg:-ml-0 md:-ml-0 sm:-ml-0 -ml-24'>
       <img src={logo} alt='' />

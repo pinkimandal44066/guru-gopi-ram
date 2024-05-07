@@ -74,7 +74,7 @@ const  HomeSeven = () => {
         </div>
         
     </div>
-    <hr className="border-8 border-blue-500 mt-8" />
+    <hr className="border-8 border-blue-500 " />
 </div>
    
   )

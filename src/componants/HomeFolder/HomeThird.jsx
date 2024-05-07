@@ -28,9 +28,15 @@ const HomeThird = () => {
           <img src={img02} alt="" className="lg:w-64 md:w-40 w-32 "  />
         </div>
       </div>
-      <button className="text-[#086AAE] lg:flex md:flex sm:flex hidden border-2 border-gray-100 shadow-2xl bg-white font-semibold w-20 h-10 mt-8 rounded-lg mx-auto block">
-        View All
-      </button>
+    
+
+
+<button className='text-[#086AAE] lg:flex md:flex sm:flex hidden border-2 
+  border-gray-100 shadow-2xl bg-white 
+  font-semibold py-2.5 px-9 mt-8 rounded-lg mx-auto block
+    '>
+      View All
+    </button>
 
       <div className="flex mt-10 lg:hidden md:hidden sm:hidden mx-6  items-center  justify-center   ">
         <Swiper

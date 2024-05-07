@@ -19,7 +19,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 const Homesix= () => {
   return (
-   <div className=' bg-[#ebf3f8] mt-10 p-8 '>
+   <div className=' bg-[#ebf3f8] mt-2 p-8 '>
 <h1 className='flex items-center justify-center text-3xl  '>Hospital Tour</h1>
 
 

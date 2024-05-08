@@ -42,6 +42,7 @@ import HomePage from './componants/HomeFolder/HomePage';
 import LayOut from './componants/LayOut';
 import About from './componants/Aboutfolder/About';
 import Centres from './componants/Centres';
+import Orthopaedics from './componants/HomeFolder/Orthopaedics';
 
 const App = () => {
   return (
@@ -53,6 +54,7 @@ const App = () => {
          
           <Route path='/about' element={<About />} /> 
           <Route path='/centres' element={<Centres />} /> 
+          <Route path='/orthopaedics' element={<Orthopaedics />} /> 
           </Route>
         </Routes>
       </Router>

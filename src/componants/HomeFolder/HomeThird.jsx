@@ -22,31 +22,6 @@ const HomeThird = () => {
       </div>
 
 
-
-{/* <div className="lg:block  hidden">
-<div className="flex justify-end items-center mr-24 -mt-16">
-  <button className="border text-blue-500  border-blue-500 px-10 py-2.5 rounded-md flex items-center w-52">
-    <MdOutlineCall className="mr-1 mt-1" />
-    Call Us Now
-  </button>
-</div>
-<div className="flex justify-end items-center mr-24 mt-3">
-  <button className="border bg-blue-500 text-white border-blue-500 px-8 py-2.5 rounded-md flex items-center w-52">
-    Book Appointment
-  </button>
-</div>
-</div> */}
-
-
-
-
-
-
-
-
-
-
-      
       {/* Large screens (lg) */}
       <div className="  lg:flex md:flex sm:flex hidden  justify-center  gap-0 mt-6 ">
         <div className="flex ">

@@ -20,6 +20,9 @@ const Second = () => {
            <div className="flex flex-col items-center justify-center lg:mt-3 md:mt-3 sm:mt-3 mt-7 lg:flex-row">
   <img src={familyimg} alt='' className='w-full lg:w-auto mb-8 lg:mb-0' />
 </div>
+
+
+
 {/* first part pinki */}
 <div className="lg:grid lg:grid-cols-6 hidden bg-white  shadow-xl mx-32 -mt-14  h-24 overflow-hidden 
  rounded-l-2xl rounded-r-2xl ">

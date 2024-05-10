@@ -1,4 +1,5 @@
 import React from 'react'
+import img42 from '../../../public/images/img42.png'
 import img6 from '../../../public/images/img6.png'
 import img5 from '../../../public/images/img5.png'
 import img7 from '../../../public/images/img7.png'
@@ -9,14 +10,15 @@ import img11 from '../../../public/images/img11.png'
 import img13 from '../../../public/images/img13.png'
 import img14 from '../../../public/images/img14.png'
 import img15 from '../../../public/images/img15.png'
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-
+import img28 from '../../../public/images/img28.png'
 import img29 from '../../../public/images/img29.jpeg'
+import img30 from '../../../public/images/img30.jpeg'
 import img31 from '../../../public/images/img31.jpeg'
-
+import img32 from '../../../public/images/img32.png'
+import img33 from '../../../public/images/img33.png'
 import img39 from '../../../public/images/img39.png'
 import img40 from '../../../public/images/img40.png'
-
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { PiNumberCircleZeroLight } from "react-icons/pi";
 import img41 from '../../../public/images/img41.png'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -28,23 +30,25 @@ import { EffectCoverflow, Navigation } from "swiper/modules";
 
 
 
-
-const Orthopaedics = () => {
+const Cardiology = () => {
   return (
     <> 
     <div className='bg-gray-50 h-[470px]'>
-    <div className=' max-w-screen-xl mx-auto justify-between mt-5 
+    <div className=' max-w-screen-xl mx-auto  justify-between mt-5  
      lg:flex md:flex sm:hidden hidden'>
-        <div className='mt-44 ml-36'>
-          <img src={img6} alt='' className='h-28'/>
+       
+<div className='mt-52 ml-36  '>
+<img src={img42} alt='' className='h-6 ml-2 '/>
+        <button className='mt-8 bg-[#086AAE] text-white text-xs py-2.5 px-7 rounded-2xl '>Enquiry Now</button>
+        <button className='text-[#086AAE] ml-5 border-[#086AAE] border text-xs py-2.5 px-7 rounded-2xl bg-white'>
+          Find A Doctor</button>
 
-        </div>
-
+          </div>
 
 
 
         <div className='mr-28 '>
-          <img src={img7} alt='' className='mt-14 h-96'  />
+          <img src={img28} alt='' className='mt-14 h-96'  />
         </div>
 
 
@@ -81,15 +85,15 @@ const Orthopaedics = () => {
 
 
     <div className='mt-16  justify-center text-center 
-     lg:flex md:flex sm:hidden hidden'>
-    <h1 className=''>Dedicated, multidisciplinary team of joint-specific doctors and therapists</h1>
+    lg:flex md:flex sm:hidden hidden'>
+    <h1 className=''>Mastering the Complexity of Neurological Health with Specialized Care</h1>
 </div>
 
-    <div className=' max-w-screen-xl mx-auto mt-11'>
+    <div className=' max-w-screen-xl mx-auto mt-11 '>
    <div className=' items-center justify-between mb-6  mx-48 text-sm 
-    lg:flex md:flex sm:hidden hidden'>
+   lg:flex md:flex sm:hidden hidden'>
    <div className='flex flex-col h-[340px] w-72   shadow-2xl rounded-2xl border '>
-      <img src={img8} alt='' className='     w-96 -mt-4 '/>
+      <img src={img29} alt='' className='     w-96 -mt-4 '/>
       <p className='w-72  p-3 mt-0.5'>At Guru, experts from across disciplines and
 specialities come together to comprehensively
 assess patients and offer the best possible
@@ -99,7 +103,7 @@ technology, techniques and protocols</p>
 
 
     <div className='flex flex-col h-[340px] w-72   shadow-2xl rounded-2xl border '>
-      <img src={img9} alt='' className='     w-96 -mt-4 '/>
+      <img src={img30} alt='' className='     w-96 -mt-4 '/>
       <p className='w-72  p-3 mt-0.5'>Our doctors — among the pioneers of bilateral
 procedure and minimally invasive total knee
 replacement surgery in India — have designed and
@@ -110,7 +114,7 @@ surgeons worldwide</p>
 
 
     <div className='flex flex-col h-[340px] w-72   shadow-2xl rounded-2xl border '>
-      <img src={img10} alt='' className='     w-96 -mt-4 '/>
+      <img src={img31} alt='' className='     w-96 -mt-4 '/>
       <p className='w-72  p-3 mt-0.5'>Dedicated experts for each joint of the body are
 backed by specially trained nurses and
 occupational therapists work together to ensure
@@ -122,26 +126,23 @@ for optimal outcome</p>
    </div>
 
    <div className='mt-12  justify-center text-center 
-    lg:flex md:flex sm:hidden hidden '>
+   lg:flex md:flex sm:hidden hidden '>
    <img src={img11} alt=""className='h-10' />
 </div>
 
 <div className='mt-1  justify-center text-center
 lg:flex md:flex sm:hidden hidden '>
-<p className='mt-3 w-full'>The successful treatment of orthopaedic &
-musculoskeletal disorders and </p>
-</div>
-<div className='justify-center text-center lg:flex md:flex sm:hidden hidden '>
-<p className=''>diseases requires team approach and care.</p>
+<p className='mt-3 w-full'>Team approach and compassionate care for holistic heart health </p>
 </div>
 
 
                   
                    {/* TREATMENTS */}
 
-<div className='max-w-screen-xl mx-auto mt-5  '>
+<div className='max-w-screen-xl mx-auto mt-5 
+ '>
   <div className=' items-center justify-between text-sm mx-48
-   lg:flex md:flex sm:hidden hidden'>
+  lg:flex md:flex sm:hidden hidden'>
     <div className=''>
 
     <hr className='w-48 border-t-2 border-[#aea9a9] my-1 mx-auto ' />
@@ -176,16 +177,19 @@ musculoskeletal disorders and </p>
 
 
     <div>
-      <img src={img13} alt=''className='h-52 mt-2'/>
+      <img src={img32} alt=''className='h-52 mt-3'/>
     </div>
     <div>
-      <p className='w-80 mt-6'>Sports injuries cover a range of conditions, such as 
-knee sports
-injuries, including ACL (Anterior Cruciate 
-Ligament), PCL (Posterior
-Cruciate Ligament), and 
-MPFL (Medial Patellofemoral Ligament)
-issues.</p>
+      <p className='w-80 mt-6'>TAVI is a surgical procedure performed to replace a 
+blocked or
+narrowed aortic valve in people who are at 
+greater risk or too sick for
+open heart surgery. The 
+TAVR(TAVI) procedure involves the
+implantation of aortic 
+valve without even eliminating the old,
+damaged valve with 
+the help of a catheter.</p>
     </div>
   </div>
 </div>
@@ -199,22 +203,26 @@ issues.</p>
 
                {/* AILMENTS */}
 
-               <div className='bg-gray-50 '>
-   <div className='mt-10  justify-center text-center 
-    lg:flex md:flex sm:hidden hidden '>
+               <div className='bg-gray-50'>
+   <div className='mt-10  justify-center text-center
+   lg:flex md:flex sm:hidden hidden  '>
    <img src={img14} alt=""className='h-10 mt-6' />
 </div>
 
-<div className='mt-1  justify-center text-center  lg:flex md:flex sm:hidden hidden '>
-<p className='mt-3 w-full '>The successful treatment of orthopaedic &
+<div className='mt-1  justify-center text-center lg:flex md:flex sm:hidden hidden 
+ '>
+<p className='mt-3 w-full
+'>The successful treatment of orthopaedic &
 musculoskeletal disorders and </p>
+
 </div>
 <div className='justify-center text-center lg:flex md:flex sm:hidden hidden '>
 <p className=''>diseases requires team approach and care.</p>
 </div>
+
 <div className='max-w-screen-xl mx-auto mt-5  '>
   <div className=' items-center justify-between text-sm mx-48
-  lg:flex md:flex sm:hidden hidden'>
+  lg:flex md:flex hidden'>
     <div >
 
     <hr className='w-48 border-t-2 border-[#aea9a9] my-1 mx-auto ' />
@@ -249,36 +257,37 @@ musculoskeletal disorders and </p>
 
 
     <div>
-      <img src={img15} alt=''className='h-52 mt-2'/>
+      <img src={img33} alt=''className='h-52 mt-2'/>
     </div>
     <div>
-      <p className='w-80 mt-6'>Osteoarthritis refers to the process of degeneration of 
-protective
-cartilages around the bones. It is the most 
-common form of arthritis,
-and it can damage any joint in the 
-body, mostly the hands, knees,
-hips, and spinal cord. 
-Call +91-124-4141414 to know more about its causes, 
-symptoms and treatment.</p>
+      <p className='w-80 mt-6'>Coronary artery disease (CAD) is a common cardiovascular 
+condition
+characterized by the narrowing or blockage of the 
+coronary arteries,
+which supply blood and oxygen to the heart 
+muscle. It can lead to
+various complications, such as angina 
+(chest pain), heart attack, or
+heart failure. Lifestyle 
+modifications, medications, and medical
+procedures like 
+angioplasty or bypass surgery are often used to
+manage CAD. 
+It is important to consult with a healthcare professional
+for accurate diagnosis and personalized treatment options.</p>
     </div>
   </div>
+
+
 </div>
    </div>
 
 
 
-   
+   {/* Mobile device */}
 
 
-
-
-
-
- {/* Mobile device */}
-
-
- <div className='lg:hidden md:hidden -mt-[500px] flex justify-center items-center'>
+   <div className='lg:hidden md:hidden -mt-[500px] flex justify-center items-center'>
     <img src={img39} alt=''/>
 </div>
 <div className='lg:hidden md:hidden mt-3 flex justify-center items-center'>
@@ -436,19 +445,6 @@ care for holistic heart health</p>
 </div>
 
 <hr className='  md:hidden lg:hidden mt-5 w-[340px] border-black  mx-auto ' />
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br/>
 <br/>
 <br/>       
@@ -457,4 +453,4 @@ care for holistic heart health</p>
   )
 }
 
-export default Orthopaedics
+export default Cardiology

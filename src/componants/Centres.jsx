@@ -263,7 +263,12 @@ const Centres = () => {
      <h1 className='text-xl text-blue-500 font-semibold  ml-10'>Orthopaedics </h1>
      <p className='w-44 text-xs  ml-4 mt-2'>Offering world-class orthopedic</p>
      <p className='w-44 text-xs  ml-12 '>care, Guru Hospita...</p>
+     <NavLink to='/orthopaedics'>
+<div><button className="  text-sm py-1 px-2   rounded-sm mt-3.5 ml-16 shadow">Read more</button></div>
+</NavLink>
      </div>
+
+ 
 
           {/* <div className='flex flex-col shadow-2xl w-60 h-48 rounded-md ml-10 p-4'>
      <h1 className='text-3xl  ml-20 mt-2'><CiAirportSign1 /></h1>
@@ -282,7 +287,10 @@ care, Guru Hospita...</p>
      <h1 className='text-xl text-blue-500 font-semibold  ml-8'>Gastro Sciences</h1>
      <p className='w-44 text-xs  ml-7 mt-2'>Ultrasonography Hi-speed CT</p>
      <p className='w-44 text-xs  ml-14'>scan GI Endosco...</p>
+     
+     <NavLink to='/gastro'>
 <div><button className="  text-sm py-1 px-2   rounded-sm mt-3.5 ml-16 shadow">Read more</button></div>
+</NavLink>
       </div>
                
           {/* <div className='flex flex-col shadow-2xl w-60 h-48 rounded-md ml-10  p-4'>
@@ -301,7 +309,9 @@ care, Guru Hospita...</p>
      <h1 className='text-xl text-blue-500 font-semibold  ml-8'>Neuro Sciences</h1>
      <p className='w-44 text-xs  ml-5 mt-2'>The center of Neurosciences, at</p>
      <p className='w-44 text-xs  ml-12 '>Guru Hospitals has...</p>
+     <NavLink to='/neuro'>
 <div><button className="  text-sm py-1 px-2   rounded-sm mt-3.5 ml-16 shadow">Read more</button></div>
+</NavLink>
       </div>
 
 
@@ -326,7 +336,9 @@ care, Guru Hospita...</p>
      <h1 className='text-xl text-blue-500 font-semibold  ml-12'>Cardiology</h1>
      <p className='w-44 text-xs  ml-4 mt-2'>A cardiologist is a medical doctor</p>
      <p className='w-44 text-xs  ml-10 '>who studies and treats...</p>
+     <NavLink to='/cardiology'>
 <div><button className="  text-sm py-1 px-2   rounded-sm mt-3.5 ml-16 shadow">Read more</button></div>
+ </NavLink>
       </div>
 
 
@@ -543,7 +555,9 @@ care, Guru Hospita...</p>
      <h1 className='text-xl text-blue-500 font-semibold w-40 ml-20'> ENT</h1>
      <p className='w-48 text-xs ml-12  mt-2'>The ENT department</p>
    
+     <NavLink to='/ent'>
 <div><button className="  text-sm py-1 px-2   rounded-sm mt-3.5 ml-16 shadow">Read more</button></div>
+     </NavLink>
       </div>
 
           {/* <div className='flex flex-col shadow-2xl w-60 h-48 rounded-md ml-10  p-4'>

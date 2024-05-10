@@ -336,9 +336,10 @@ care, Guru Hospita...</p>
      <h1 className='text-xl text-blue-500 font-semibold  ml-12'>Cardiology</h1>
      <p className='w-44 text-xs  ml-4 mt-2'>A cardiologist is a medical doctor</p>
      <p className='w-44 text-xs  ml-10 '>who studies and treats...</p>
+     
      <NavLink to='/cardiology'>
 <div><button className="  text-sm py-1 px-2   rounded-sm mt-3.5 ml-16 shadow">Read more</button></div>
- </NavLink>
+</NavLink>
       </div>
 
 

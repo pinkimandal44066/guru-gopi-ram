@@ -87,7 +87,7 @@ const Orthopaedics = () => {
 
     <div className=' max-w-screen-xl mx-auto mt-11'>
    <div className=' items-center justify-between mb-6  mx-48 text-sm 
-    lg:flex md:flex sm:hidden hidden  md:gap-4 md:mx-4'>
+    lg:flex md:flex sm:hidden hidden '>
    <div className='flex flex-col h-[340px] w-72   shadow-2xl rounded-2xl border '>
       <img src={img8} alt='' className='     w-96 -mt-4 '/>
       <p className='w-72  p-3 mt-0.5'>At Guru, experts from across disciplines and

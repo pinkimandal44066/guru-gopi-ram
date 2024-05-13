@@ -9,7 +9,6 @@ import { IoCloseOutline } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 // import { useLocation } from "react-router-dom";
 
-
 const Navbar = () => {
   const [isPatientMenuOpen, setIsPatientMenuOpen] = useState(false);
   const togglePatientMenu = () => {
@@ -48,10 +47,10 @@ const Navbar = () => {
 
   const [isSideMenuOpen, setMenu] = useState(false);
   // page location
-    // const location = useLocation();
-    // useEffect(() => {
-    //   setMenu(false); // Close the side menu when the location changes
-    // }, [location]);
+  // const location = useLocation();
+  // useEffect(() => {
+  //   setMenu(false); // Close the side menu when the location changes
+  // }, [location]);
 
   return (
     <div>
@@ -82,13 +81,13 @@ const Navbar = () => {
       <div className="max-w-screen-xl lg:mx-auto mx-2">
         <div className="flex justify-between items-center py-2">
           {/* Hospital Logo (on the left) */}
-          <div className="flex items-center">
+          <NavLink to="/" className="flex items-center">
             <img
               src={logo}
               alt=""
               className=" w-14 sm:w-20  md:w-20  lg:w-28 "
             />
-          </div>
+          </NavLink>
 
           {/* Search Bar (in the middle) */}
 
@@ -122,18 +121,18 @@ const Navbar = () => {
           onMouseEnter={togglePatientMenu}
           onMouseLeave={togglePatientMenu}
         >
-       <div className="flex cursor-pointer">
-
-       <nav1
-    className={({ isActive }) =>
-      `duration-200 ${
-        isActive ? "text-[#C074B3] font-bold" : "text-black"
-      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline transition-all duration-300 ease-in-out transform font-medium hover:scale-105`
-    }
-  >
-    Patient
-  </nav1>
-  {/* <NavLink 
+          <div className="flex cursor-pointer">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                `duration-200 ${
+                  isActive ? "text-[#086AAE] " : "text-black"
+                } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#086AAE] hover:font-bold lg:p-0 hover:underline transition-all duration-300 ease-in-out transform font-medium hover:scale-105`
+              }
+            >
+              Patient
+            </NavLink>
+            {/* <NavLink 
     to={"/about"}
     className={({ isActive }) =>
       `duration-200 ${
@@ -143,8 +142,8 @@ const Navbar = () => {
   >
     Patient
   </NavLink> */}
-  <IoMdArrowDropdown className="mt-1.5" />
-</div>
+            <IoMdArrowDropdown className="mt-1.5" />
+          </div>
 
           {isPatientMenuOpen && (
             <div
@@ -179,8 +178,6 @@ const Navbar = () => {
                 </ul>
               </div> */}
             </div>
-
-            
           )}
         </div>
 
@@ -188,7 +185,7 @@ const Navbar = () => {
           className="relative"
           onMouseEnter={toggleCentresMenu}
           onMouseLeave={toggleCentresMenu}
-        > 
+        >
           <div className="flex cursor-pointer">
             <nav1
               className={({ isActive }) =>
@@ -356,7 +353,7 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline  transition-all duration-300  ease-in-out transform font-medium  hover:scale-105  `
               }
             >
-              Contact Us
+              <NavLink to='/contact'> Contact Us </NavLink>
             </h1>
             <IoMdArrowDropdown className="mt-1.5" />
           </div>
@@ -409,7 +406,7 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline  transition-all duration-300  ease-in-out transform font-medium  hover:scale-105  `
               }
             >
-              About Us
+              <NavLink to="/about">About Us</NavLink>
             </h1>
             <IoMdArrowDropdown className="mt-1.5" />
           </div>
@@ -512,17 +509,16 @@ const Navbar = () => {
               className="text-3xl mt-2.5 cursor-pointer text-[#086AAE] rounded-md  border-2 border-[#086AAE] "
             />
 
-<div className="relative focus:outline-none rounded-md ">
-            <input
-              type="search"
-              placeholder="Search...."
-              className="placeholder:text-gray-300  mt-1 w-64 h-10 sm:h-10 sm:w-64  border-2 border-[#086AAE] focus:outline-none rounded-md pl-3"
-            />
-            <div className="absolute inset-y-0 right-0 flex items-center mr-2">
-              <FaSearch className="text-white bg-[#086AAE] text-xl rounded-full px-1 py-1" />
+            <div className="relative focus:outline-none rounded-md ">
+              <input
+                type="search"
+                placeholder="Search...."
+                className="placeholder:text-gray-300  mt-1 w-64 h-10 sm:h-10 sm:w-64  border-2 border-[#086AAE] focus:outline-none rounded-md pl-3"
+              />
+              <div className="absolute inset-y-0 right-0 flex items-center mr-2">
+                <FaSearch className="text-white bg-[#086AAE] text-xl rounded-full px-1 py-1" />
+              </div>
             </div>
-          </div>
-        
           </section>
         </div>
       </div>
@@ -537,11 +533,10 @@ const Navbar = () => {
                   onClick={() => setMenu(false)}
                   className="text-3xl  cursor-pointer text-[#086AAE] rounded-md  border-2 border-[#086AAE]"
                 />
-                
               </div>
             </div>
 
-                  {/* PatientMenuOpen */}
+            {/* PatientMenuOpen */}
             {/* <div className="flex mt-2  mx-4 sm:mx-20 md:mx-28 ">
               <div className="flex justify-between gap-2">
                 <section className=" flex flex-col bg-white w-full h-fit md:w-[720px] sm:w-[580px]  border-4 border-white p-2 rounded-md shadow-lg  flex-grow text-lg font-normal">

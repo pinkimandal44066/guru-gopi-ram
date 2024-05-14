@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
       <hr className="border-8 border-blue-500 " />
-      <div className="max-w-screen-xl  lg:mx-auto  mx-5 ">
+      <div className="max-w-screen-xl  lg:mx-auto mx-5 ">
         <div
           className="flex justify-between   items-center lg:flex-row md:flex-row sm:flex-col 
     flex-col "

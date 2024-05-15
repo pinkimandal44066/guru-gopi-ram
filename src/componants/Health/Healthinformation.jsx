@@ -9,7 +9,7 @@ const Healthinformation = () => {
         <div
           className="lg:flex-row flex md:flex-row flex-col  
     max-w-screen-xl lg:mx-auto md:mx-auto mx-20  lg:top-[60%] lg:absolute 
-     md:absolute md:top-[25%]  md:items-center md:left-[10%]
+     md:absolute md:top-[40%]  md:items-center md:left-[10%]
      lg:left-[10%] lg:gap-[450px] lg:items-center "
         >
           <div
@@ -46,7 +46,7 @@ const Healthinformation = () => {
 
 
 
-      <div className="max-w-screen-xl lg:mt-12 lg:mx-auto mx-7 lg:mx-52 md:mx-52 sm:mx-12 md:mt-12 mt-10">
+      <div className="max-w-screen-xl lg:mt-12  mx-7 lg:mx-72 md:mx-auto sm:mx-12 md:mt-12 mt-10">
         <h1 className="lg:text-2xl text-xl font-semibold">Treatments</h1>
       </div>
 
@@ -116,10 +116,271 @@ const Healthinformation = () => {
             </p>
           </div>
         
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+          <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
+            <h1 className="text-xl text-blue-500 font-semibold lg:mt-10 md:mt-4 lg:mx-3 md:mx-7">
+              Abdominal Hysterectomy
+            </h1>
+            <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4 mt-2">
+              An Abdominal Hysterectomy is a surgical removal of uterus by
+              making an incision...
+            </p>
+          </div>
+
+
+
         
         <br />
         <br />
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
       </div>
       {/* mobile screen */}

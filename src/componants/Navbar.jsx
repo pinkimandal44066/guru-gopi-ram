@@ -247,7 +247,9 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline  transition-all duration-300  ease-in-out transform font-medium  hover:scale-105  `
               }
             >
-              Health Information
+             <NavLink to='/health'>
+             Health Information
+             </NavLink>
             </nav>
             <IoMdArrowDropdown className="mt-1.5" />
           </div>

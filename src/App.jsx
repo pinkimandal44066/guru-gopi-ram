@@ -11,6 +11,7 @@ import Neuro from "./componants/HomeFolder/Neuro";
 import Cardiology from "./componants/HomeFolder/Cardiology";
 import Ent from "./componants/HomeFolder/Ent";
 import Contact from "./componants/Contactusfolder/Contact";
+import Healthinformation from "./componants/Health/Healthinformation";
 
 const App = () => {
   return (
@@ -28,7 +29,7 @@ const App = () => {
             <Route path="/cardiology" element={<Cardiology />} />
             <Route path="/ent" element={<Ent />} />
             <Route path="/contact" element={<Contact />} />
-            
+            <Route path="/health" element={<Healthinformation />} />
           </Route>
         </Routes>
       </Router>

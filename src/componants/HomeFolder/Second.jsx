@@ -81,9 +81,11 @@ const Second = () => {
              <SwiperSlide>
   <div className="col-span-1 shadow-xl border p-3 border-gray-100 flex flex-col justify-center items-center rounded-xl">
     <MdOutlineLocalHospital className="text-blue-500 text-xl" />
-    <span className="text-blue-500 text-sm h-10 font-bold text-center whitespace-nowrap">
+  <NavLink to='/book'>
+  <span className="text-blue-500 text-sm h-10 font-bold text-center whitespace-nowrap">
       Book Appointment
     </span>
+  </NavLink>
   </div>
 </SwiperSlide>
 <SwiperSlide>

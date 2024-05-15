@@ -12,6 +12,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import { NavLink } from 'react-router-dom';
 
 
 const Second = () => {
@@ -30,7 +31,7 @@ const Second = () => {
       <div className="col-span-1 bg-white flex flex-col justify-center items-center border-r border-blue-500">
         <MdOutlineLocalHospital className="text-blue-500 text-xl " />
 
-        <span className="text-blue-500 text-sm mx-4 font-bold text-center ">Book Appointment</span>
+     <NavLink to='/book'>   <span className="text-blue-500 text-sm mx-4 font-bold text-center ">Book Appointment</span></NavLink>
       </div>
       <div className="col-span-1 bg-white flex flex-col justify-center items-center border-r border-blue-500">
         <AiFillCodepenCircle className="text-blue-500 text-xl" />

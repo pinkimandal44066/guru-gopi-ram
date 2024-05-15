@@ -9,7 +9,7 @@ const Healthinformation = () => {
         <div
           className="lg:flex-row flex md:flex-row flex-col  
     max-w-screen-xl lg:mx-auto md:mx-auto mx-20  lg:top-[60%] lg:absolute 
-     md:absolute md:top-[10%]  md:items-center md:left-[10%]
+     md:absolute md:top-[16%]  md:items-center md:left-[10%]
      lg:left-[10%] lg:gap-[450px] lg:items-center "
         >
           <div

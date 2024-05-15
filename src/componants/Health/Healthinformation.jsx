@@ -9,7 +9,7 @@ const Healthinformation = () => {
         <div
           className="lg:flex-row flex md:flex-row flex-col  
     max-w-screen-xl lg:mx-auto md:mx-auto mx-20  lg:top-[60%] lg:absolute 
-     md:absolute md:top-[40%]  md:items-center md:left-[10%]
+     md:absolute md:top-[10%]  md:items-center md:left-[10%]
      lg:left-[10%] lg:gap-[450px] lg:items-center "
         >
           <div
@@ -46,7 +46,7 @@ const Healthinformation = () => {
 
 
 
-      <div className="max-w-screen-xl lg:mt-12  mx-7 lg:mx-72 md:mx-auto sm:mx-12 md:mt-12 mt-10">
+      <div className="max-w-screen-xl lg:mt-12  mx-7 lg:mx-52 md:mx-28 sm:mx-12 md:mt-12 mt-10">
         <h1 className="lg:text-2xl text-xl font-semibold">Treatments</h1>
       </div>
 

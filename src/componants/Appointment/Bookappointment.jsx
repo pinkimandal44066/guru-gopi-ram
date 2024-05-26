@@ -2361,7 +2361,7 @@ const Bookappointment = () => {
     
                 <div
                   className="flex lg:mt-3 mt-3 lg:border  rounded-b-2xl sm:-mt-0.5
-                 border-[#086AAE] lg:w-[287px]  w-[320px] lg:-ml-4  md:w-[383px] md:mt-0 
+                 border-[#086AAE] lg:w-[287px]  w-[320px] lg:-ml-4  md:w-[383px] md:mt-1 
                 -ml-4 
               
                "
@@ -2486,7 +2486,7 @@ const Bookappointment = () => {
     
                 <div
                   className="flex lg:mt-3 mt-3 lg:border  rounded-b-2xl sm:-mt-0.5
-                 border-[#086AAE] lg:w-[287px]  w-[320px] lg:-ml-4  md:w-[383px] md:mt-0 
+                 border-[#086AAE] lg:w-[287px]  w-[320px] lg:-ml-4  md:w-[383px] md:mt-1 
                 -ml-4 
               
                "
@@ -2618,7 +2618,7 @@ const Bookappointment = () => {
     
                 <div
                   className="flex lg:mt-3 mt-3 lg:border  rounded-b-2xl sm:-mt-0.5
-                 border-[#086AAE] lg:w-[287px]  w-[320px] lg:-ml-4  md:w-[383px] md:mt-0
+                 border-[#086AAE] lg:w-[287px]  w-[320px] lg:-ml-4  md:w-[383px] md:mt-1
                 -ml-4 
               
                "

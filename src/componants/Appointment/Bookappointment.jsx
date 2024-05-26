@@ -2350,7 +2350,7 @@ const Bookappointment = () => {
 
 
               <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 lg:h-[193px]  h-[310px]
-               md:h-[320px] md:rounded-xl
+               md:h-[316px] md:rounded-xl
                lg:rounded-xl 
               rounded-md p-4 ">
     

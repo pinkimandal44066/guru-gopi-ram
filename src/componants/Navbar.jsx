@@ -142,6 +142,10 @@ const Navbar = () => {
   >
     Patient
   </NavLink> */}
+{/* 
+   <div> Patient</div> */}
+
+
             <IoMdArrowDropdown className="mt-1.5" />
           </div>
 
@@ -304,7 +308,10 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline  transition-all duration-300  ease-in-out transform font-medium  hover:scale-105  `
               }
             >
+             
               Career
+             
+            
             </h1>
             <IoMdArrowDropdown className="mt-1.5" />
           </div>

@@ -22,9 +22,6 @@ const Healthinformation = () => {
         </div>
       </div>
 
-
-      
-
       <div className="max-w-screen-xl lg:mt-12  mx-7 lg:mx-52 md:mx-28 sm:mx-12 md:mt-12 mt-10 ">
         <h1 className="lg:text-2xl text-xl font-semibold">Treatments</h1>
       </div>
@@ -70,6 +67,11 @@ const Healthinformation = () => {
               to treat various types...
             </p>
           </div>
+
+
+
+
+
 
           <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 h-48 rounded-md   p-4">
             <h1 className="text-xl text-blue-500 font-semibold lg:mt-7 md:mt-4 lg:mx-3 md:mx-7">

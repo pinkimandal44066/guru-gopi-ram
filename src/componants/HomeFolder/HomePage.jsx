@@ -7,6 +7,7 @@ import HomeFive from "./HomeFive";
 import HomeEight from "./HomeEight";
 import Button from "./Button";
 
+
 const HomePage = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const HomePage = () => {
       <HomeSix />
       <HomeSeven />
       <Button />
+      
     </div>
   );
 };

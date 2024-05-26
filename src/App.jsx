@@ -14,6 +14,10 @@ import Contact from "./componants/Contactusfolder/Contact";
 import Healthinformation from "./componants/Health/Healthinformation";
 import Patientcare from "./componants/Patient/Patientcare";
 import Bookappointment from "./componants/Appointment/Bookappointment";
+import Bookappointmentone from "./componants/Appointment/Bookappointmentone";
+import Patientone from "./componants/Patient/Patientone";
+
+
 const App = () => {
   return (
     <>
@@ -21,7 +25,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<LayOut />}>
             <Route path="/" element={<HomePage />} />
-
+            {/* <Route path="/" element={<Patientone/>} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/centres" element={<Centres />} />
             <Route path="/orthopaedics" element={<Orthopaedics />} />
@@ -33,6 +37,8 @@ const App = () => {
             <Route path="/health" element={<Healthinformation />} />
             <Route path="/patient" element={<Patientcare />} />
             <Route path="/book" element={<Bookappointment />} />
+            <Route path="/appointment" element={<Bookappointmentone />} />
+       
           </Route>
         </Routes>
       </Router>

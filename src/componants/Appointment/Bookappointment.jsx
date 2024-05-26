@@ -2573,7 +2573,9 @@ const Bookappointment = () => {
 
 
 
-              <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 lg:h-[193px]  h-[310px] lg:rounded-xl 
+              <div className="flex flex-col shadow-md lg:w-72 md:w-96 w-80 lg:h-[193px]  h-[310px]
+               md:h-[290px] md:rounded-xl
+               lg:rounded-xl 
               rounded-md p-4 ">
     
                 <div className="flex items-center ">
@@ -2618,7 +2620,7 @@ const Bookappointment = () => {
     
                 <div
                   className="flex lg:mt-3 mt-3 lg:border  rounded-b-2xl sm:-mt-0.5
-                 border-[#086AAE] lg:w-[287px]  w-[320px] lg:-ml-4  md:w-[383px] md:-mt-0.5
+                 border-[#086AAE] lg:w-[287px]  w-[320px] lg:-ml-4  md:w-[383px] md:mt-0
                 -ml-4 
               
                "

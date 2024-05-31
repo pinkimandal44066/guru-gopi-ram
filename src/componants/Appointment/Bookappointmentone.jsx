@@ -30,7 +30,7 @@ const Bookappointmentone = () => {
                alt=""
            />
            
-           <div className=" lg:mt-10 md:-mt-0 sm:-mt-0   ">
+           <div className=" lg:mt-10 md:mt-10 sm:-mt-0   ">
                <h1 className="text-lg font-bold mx-6 lg:mx-0 ">
                  Dr. K K Singh
                </h1>
@@ -52,7 +52,7 @@ const Bookappointmentone = () => {
 
 
                       
- <div className='mt-10 rounded-md border border-gray-400 h-14 w-48 bg-[#D9D9D9] text-sm
+ <div className='mt-10 md:mt-20 md:mx-10 rounded-md border border-gray-400 h-14 w-48 bg-[#D9D9D9] text-sm
  lg:block md:block sm:block hidden'>
    <h1 className="font-bold mx-[67px]  mt-1">40 years</h1>
    <hr className="border-gray-400" />

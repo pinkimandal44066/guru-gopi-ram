@@ -1,7 +1,8 @@
 import React from 'react'
 import img55 from '../../../public/images/img55.png';
 import img61 from '../../../public/images/img61.png'
-
+// import './index.css';
+import '../../../src/index.css';
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -52,7 +53,7 @@ const Bookappointmentone = () => {
 
 
                       
- <div className='mt-10 md:mt-20 md:mx-0 rounded-md border border-gray-400 h-14 w-48 bg-[#D9D9D9] text-sm
+ <div className='mt-10 md:mt-20 md:mx-6 rounded-md border border-gray-400 h-14 w-48 bg-[#D9D9D9] text-sm
  lg:block md:block sm:block hidden'>
    <h1 className="font-bold mx-[67px]  mt-1">40 years</h1>
    <hr className="border-gray-400" />

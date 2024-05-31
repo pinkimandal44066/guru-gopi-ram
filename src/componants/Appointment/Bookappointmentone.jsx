@@ -22,7 +22,7 @@ const Bookappointmentone = () => {
   return (
     <>
        <div className='max-w-screen-xl lg:mx-auto '>
-        <div className="lg:flex md:flex sm:flex justify-between lg:mx-48">
+        <div className="lg:flex md:flex sm:flex justify-between lg:mx-48 md:mx-10 ">
            <div className="flex items-center mx-5"> 
              <img
                className=" lg:w-28   w-20 lg:mr-4 lg:mt-10 "
@@ -52,7 +52,7 @@ const Bookappointmentone = () => {
 
 
                       
- <div className='mt-10 md:mt-20 md:mx-10 rounded-md border border-gray-400 h-14 w-48 bg-[#D9D9D9] text-sm
+ <div className='mt-10 md:mt-20 md:mx-0 rounded-md border border-gray-400 h-14 w-48 bg-[#D9D9D9] text-sm
  lg:block md:block sm:block hidden'>
    <h1 className="font-bold mx-[67px]  mt-1">40 years</h1>
    <hr className="border-gray-400" />

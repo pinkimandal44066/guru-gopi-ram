@@ -222,10 +222,10 @@ const Patientone = () => {
      <div className="  ">
           <div
             className="flex justify-center  lg:gap-2 g:flex-row md:flex-row flex-col 
-items-center max-w-screen-xl lg:mx-auto mx-5"
+items-center max-w-screen-xl lg:mx-auto mx-5  "
           >
             <div className="shadow-2xl
-             lg:w-[420px] lg:h-44 h-44 w-[335px] rounded-xl bg-white   
+             lg:w-[420px] lg:h-44 h-44 w-[335px] rounded-xl bg-white     sm:mx-2 lg:mx-0
             lg:mt-0  mt-7">
             
 
@@ -244,7 +244,8 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
               preventive,diagnostics, and rehabilitative services.
               </p>
         
-<div><button className="  text-sm py-1 px-5   rounded-sm lg:mt-3.5 mt-6 lg:mx-36 mx-28 shadow">Read more</button></div>
+<div><button className="  text-sm py-1 px-5   rounded-sm lg:mt-3.5 
+ mt-6 lg:mx-36 mx-28 shadow">Read more</button></div>
 
             </div>
 
@@ -261,7 +262,7 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
 
 
             <div className="shadow-2xl
-             lg:w-[420px] lg:h-44 h-44 w-[335px] rounded-xl bg-white   
+             lg:w-[420px] lg:h-44 h-44 w-[335px] rounded-xl bg-white    sm:mx-2 lg:mx-0
             lg:mt-0 mt-6 ">
             
 
@@ -311,8 +312,8 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
           {/* LINE PART1 */}
 
           <div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md mt-8  p-4">
-            <img src={img60} alt='' className='w-6 lg:mx-28 mx-32  mt-1'/>
-            <h1 className="text-base text-blue-500 font-semibold lg:mt-1 md:mt-4 lg:mx-1 mx-5 md:mx-7">
+            <img src={img60} alt='' className='w-6 lg:mx-28 mx-32  mt-1 '/>
+            <h1 className="text-base text-blue-500 font-semibold lg:mt-1 md:mt-4 lg:mx-1  mx-5 md:mx-7">
             Medical Insurance & TPA Services
             </h1>
             <p className="lg:w-60 text-xs  md:mx-2  lg:mx-4  mx-6 mt-1">
@@ -320,13 +321,14 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
 requirements and procedures involved.
             </p>
                   
-<div><button className="  text-sm py-1 px-5   rounded-sm lg:mt-3.5 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
+<div><button className="  text-sm py-1 px-5   sm:mx-24 sm:px-3 sm:mt-5
+rounded-sm lg:mt-3.5 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
 </div>
           </div>
 
           {/* PART2 */}
           <div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md mt-8  p-4">
-            <img src={img60} alt='' className='w-6 lg:mx-28 mx-32 mt-1'/>
+          <img src={img60} alt='' className='w-6 lg:mx-28 mx-32  mt-1 '/>
             <h1 className="text-base text-blue-500 font-semibold lg:mt-1 md:mt-4 lg:mx-20 mx-20  md:mx-7">
             Care@Home
             </h1>
@@ -335,9 +337,9 @@ requirements and procedures involved.
 requirements and procedures involved.
             </p>
                   
-<div><button className="  text-sm py-1 px-5   rounded-sm lg:mt-3.5 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
-</div>
-          </div>
+            <div><button className="  text-sm py-1 px-5   sm:mx-24 sm:px-3 sm:mt-5
+rounded-sm lg:mt-3.5 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
+</div>  </div>
 
 
           {/* PART3 */}
@@ -347,8 +349,8 @@ requirements and procedures involved.
 
 
 
-          <div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md mt-8  p-4">
-            <img src={img60} alt='' className='w-6 lg:mx-28 mx-32 mt-1'/>
+          <div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md mt-8 sm:mt-0 lg:mt-8  p-4">
+          <img src={img60} alt='' className='w-6 lg:mx-28 mx-32  mt-1 '/>
             <h1 className="text-base text-blue-500 font-semibold lg:mt-1 md:mt-4 lg:mx-12 mx-16  md:mx-7">
             Hospital Tour Guide
             </h1>
@@ -357,7 +359,8 @@ requirements and procedures involved.
 requirements and procedures involved.
             </p>
                   
-<div><button className="  text-sm py-1 px-5   rounded-sm lg:mt-3.5 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
+            <div><button className="  text-sm py-1 px-5   sm:mx-24 sm:px-3 sm:mt-5
+rounded-sm lg:mt-3.5 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
 </div>
           </div>
 
@@ -375,8 +378,8 @@ requirements and procedures involved.
 
 
 
-<div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md  mb-10  p-4">
-            <img src={img60} alt='' className='w-6 lg:mx-28 mx-32 mt-1'/>
+<div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md lg:mb-10 lg:mt-0 md:mt-0 sm:mt-0 mt-8 p-4">
+<img src={img60} alt='' className='w-6 lg:mx-28 mx-32  mt-1 '/>
             <h1 className="text-base text-blue-500 font-semibold lg:mt-1 md:mt-4 lg:mx-16  mx-20 md:mx-7">
             Medical Reports
             </h1>
@@ -386,7 +389,8 @@ Number and view or print the reports available to
 you.
             </p>
                   
-<div><button className="  text-sm py-1 px-5   rounded-sm lg:mt-3 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
+            <div><button className="  text-sm py-1 px-5   sm:mx-24 sm:px-3 sm:mt-5
+rounded-sm lg:mt-3.5 mt-6 lg:mx-20 mx-20 shadow">Read more</button>
 </div>
           </div>
 
@@ -395,8 +399,8 @@ you.
 
           {/* PART5 */}
 
-          <div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md    p-4">
-            <img src={img60} alt='' className='w-6 lg:mx-28 mx-32 mt-1'/>
+          <div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md  lg:mt-0 md:mt-0 sm:mt-0 mt-8 p-4">
+          <img src={img60} alt='' className='w-6 lg:mx-28 mx-32  mt-1 '/>
             <h1 className="text-base text-blue-500 font-semibold lg:mt-1 md:mt-4 lg:mx-0 mx-5 md:mx-7">
             Interim Bills for Admitted Patients
             </h1>
@@ -405,8 +409,8 @@ you.
 Number and view or print the reports available to
 you.
             </p>
-                  
-<div><button className="  text-sm py-1 px-5   rounded-sm lg:mt-3 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
+            <div><button className="  text-sm py-1 px-5   sm:mx-24 sm:px-3 sm:mt-5
+rounded-sm lg:mt-3.5 mt-6 lg:mx-20 mx-20 shadow">Read more</button>
 </div>
           </div>
 
@@ -419,8 +423,8 @@ you.
 
 
 
-          <div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md    p-4">
-            <img src={img60} alt=''  className='w-6 lg:mx-28 mx-32 mt-1'/>
+          <div className="flex flex-col shadow-md  bg-white lg:w-[283px] md:w-96 w-80 h-44 rounded-md  lg:mt-0 md:mt-0 sm:mt-0 mt-8  p-4">
+          <img src={img60} alt='' className='w-6 lg:mx-28 mx-32  mt-1 '/>
             <h1 className="text-base text-blue-500 font-semibold lg:mt-1 md:mt-4 lg:mx-10 mx-16 md:mx-7">
             Make Online Payment
             </h1>
@@ -429,8 +433,8 @@ you.
 Number and view or print the reports available to
 you.
             </p>
-                  
-<div><button className="text-sm py-1 px-5   rounded-sm lg:mt-3 mt-6 lg:mx-16 mx-20 shadow">Read more</button>
+            <div><button className="  text-sm py-1 px-5   sm:mx-24 sm:px-3 sm:mt-5
+rounded-sm lg:mt-3.5 mt-6 lg:mx-20 mx-20 shadow">Read more</button>
 </div>
           </div>
 

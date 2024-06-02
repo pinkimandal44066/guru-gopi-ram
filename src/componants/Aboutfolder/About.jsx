@@ -51,7 +51,7 @@ const About = () => {
             className="flex justify-center  lg:gap-3 g:flex-row md:flex-row flex-col 
 items-center max-w-screen-xl lg:mx-auto mx-5"
           >
-            <div className="shadow-2xl lg:w-[450px] lg:h-56 h-52 w-[335px] rounded-xl bg-white   lg:mt-8 mt-10 ">
+            <div className="shadow-2xl lg:w-[450px] lg:h-56 h-52 w-[370px] rounded-xl bg-white   lg:mt-8 mt-10 ">
               <img
                 src={img48}
                 alt=""
@@ -72,7 +72,7 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
               </p>
             </div>
 
-            <div className="shadow-2xl lg:w-[450px] lg:h-56 h-52 w-[335px] rounded-xl bg-white   lg:mt-8 mt-6">
+            <div className="shadow-2xl lg:w-[450px] lg:h-56 h-52 w-[370px] rounded-xl bg-white   lg:mt-8 mt-6">
               <img
                 src={img49}
                 alt=""
@@ -93,51 +93,63 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
 
 
 
-       <div className="lg:text-2xl md:text-2xl text-xl mt-20 lg:mx-10">
+       <div className="lg:text-2xl md:text-2xl  text-xl mt-20  max-w-screen-xl  mx-8 lg:mx-48">
        <h1 >Our Values</h1>
        </div>
 
-{/* <div className="flex justify-start flex-wrap ">
-  <div>
-    <p>To create a world-class integrated healthcare delivery system in
+
+
+
+<div className="flex justify-center gap-5 items-center  flex-wrap max-w-screen-xl lg:mx-auto  mt-6">
+  
+<div className="flex-col flex items-center justify-center   lg:w-[24%] lg:h-64  w-[370px] h-60 shadow-2xl rounded-md" >
+<i className=" text-[#086AAE] text-6xl   ri-team-fill"></i>
+<h1 className="text-[#086AAE] text-xl">Patient Centricity</h1>
+<p className="lg:mx-7 mx-6 mt-2">To create a world-class integrated healthcare delivery system in
 India, entailing the finest 
 medical skills combined with
 compassionate patient care.</p>
-  </div>
-  <div>
-    <p>To create a world-class integrated healthcare delivery system in
-India, entailing the finest 
-medical skills combined with
-compassionate patient care.</p>
-  </div>
-  <div>
-    <p>
-To create a world-class integrated healthcare delivery system in
-India, entailing the finest 
-medical skills combined with
-compassionate patient care.</p>
-  </div>
-  <div>
-    <p>
-To create a world-class integrated healthcare delivery system in
-India, entailing the finest 
-medical skills combined with
-compassionate patient care.</p>
-  </div>
-  <div>
-    <p>
-To create a world-class integrated healthcare delivery system in
-India, entailing the finest 
-medical skills combined with
-compassionate patient care.</p>
-  </div>
-</div> */}
-      
+</div>
 
 
 
 
 
+<div className="flex-col flex items-center justify-center   lg:w-[24%] lg:h-64  w-[370px] h-60 shadow-2xl rounded-md" >
+<i className=" text-[#086AAE] text-6xl   ri-group-3-fill"></i>
+<h1 className="text-[#086AAE] text-xl">Integrity</h1>
+<p className="lg:mx-7 mx-6 mt-2">To create a world-class integrated healthcare delivery system in
+India, entailing the finest 
+medical skills combined with
+compassionate patient care.</p>
+</div>
+<div className="flex-col flex items-center justify-center   lg:w-[24%] lg:h-64  w-[370px] h-60 shadow-2xl rounded-md" >
+<i className=" text-[#086AAE] text-6xl   ri-team-fill"></i>
+<h1 className="text-[#086AAE] text-xl">Teamwork</h1>
+<p className="lg:mx-7 mx-6 mt-2">To create a world-class integrated healthcare delivery system in
+India, entailing the finest 
+medical skills combined with
+compassionate patient care.</p>
+</div>
+<div className="flex-col flex items-center justify-center   
+lg:w-[24%] lg:h-64  w-[370px] h-60 shadow-2xl rounded-md mb-2" >
+<i className=" text-[#086AAE] text-6xl   ri-team-fill"></i>
+<h1 className="text-[#086AAE] text-xl">Innovation</h1>
+<p className="lg:mx-7 mx-6 mt-2">To create a world-class integrated healthcare delivery system in
+India, entailing the finest 
+medical skills combined with
+compassionate patient care.</p>
+</div>
+<div className="flex-col flex items-center justify-center   lg:w-[24%] lg:h-64 
+ w-[370px] h-60 shadow-2xl rounded-md mb-2" >
+<i className=" text-[#086AAE] text-6xl   ri-team-fill"></i>
+<h1 className="text-[#086AAE] text-xl">Ownership</h1>
+<p className="lg:mx-7 mx-6 mt-2">To create a world-class integrated healthcare delivery system in
+India, entailing the finest 
+medical skills combined with
+compassionate patient care.</p>
+</div>
+</div>
 
 
 

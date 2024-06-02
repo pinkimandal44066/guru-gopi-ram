@@ -123,7 +123,7 @@ const Navbar = () => {
         >
           <div className="flex cursor-pointer">
             <NavLink
-              to="/"
+              to="/patientone"
               className={({ isActive }) =>
                 `duration-200 ${
                   isActive ? "text-[#086AAE] " : "text-black"

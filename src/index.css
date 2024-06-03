@@ -2,35 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @font-face {
-    font-family: 'Inter';
-    src: local('Inter'), url('../public/images/Inter.zip') format('truetype');
-    
-  }
-  
+  font-family: "Inter";
+  src: local("Inter"), url("../public/images/Inter.zip") format("truetype");
+}
 
+.swiper-button-prev {
+  color: #000 !important;
+  position: absolute;
+  left: -10px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid gainsboro;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -10px !important;
+  margin-left: -4px;
+}
 
-  /* .swiper-button-prev {
-    color: #000 ;
-    position: absolute;
-    left: -10px;
-      background-color: white;
-      border-radius: 50%;
-      border: 2px solid gainsboro;
-      width: 48px;
-      height: 48px;
-      
-    }
-    
-    .swiper-button-next {
-      color: #000 !important;
-      position: absolute;
-        right: -10px;
-      background-color: white;
-      border: 2px solid gainsboro;
-      border-radius: 50%;
-      width: 48px;
-      height: 48px
-    } */
+.swiper-button-next {
+  color: #000 !important;
+  position: absolute;
+  right: -10px;
+  background-color: white;
+  border: 2px solid gainsboro;
+  border-radius: 50%;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -10px !important;
+  margin-right: -4px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 8px !important;
+  font-weight: bold;
+}

@@ -128,7 +128,7 @@ from World India Diabetes Foundation (2013).</p>
 
 
 
-<div className="max-w-screen-xl lg:mx-auto lg:w-[40%]  md:w-[40%] sm:w-[50%]  sm:mx-48 
+<div className="max-w-screen-xl lg:mx-auto lg:w-[39%]  md:w-[40%] sm:w-[50%]  sm:mx-48 
 gap-0 md:mx-2  bg-white rounded-md shadow-md mb-10 h-96 ">
   <h1 className='text-xl border rounded-t-md border-[#086AAE] h-10'>
     <span className='mx-2'>Schedule Appointment</span>

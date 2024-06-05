@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { useRef } from 'react'
+
 import img62 from '../../public/images/img62.png'
 import img63 from '../../public/images/img63.png'
 import img64 from '../../public/images/img64.png'
@@ -9,8 +9,6 @@ import img72 from '../../public/images/img72.png'
 import img73 from '../../public/images/img73.png'
 
 
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { PiNumberCircleZeroLight } from "react-icons/pi";
 // import img41 from "../../../public/images/img41.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -27,69 +25,69 @@ const Career = () => {
 
 
 
-  const [date, setDate] = useState(null);
+  // const [date, setDate] = useState(null);
 
-  const form = useRef();
-  const [formSubmitted, setFormSubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email_id: "",
-    mobile_number: "",
-    option: "",
-  });
+  // const form = useRef();
+  // const [formSubmitted, setFormSubmitted] = useState(false);
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email_id: "",
+  //   mobile_number: "",
+  //   option: "",
+  // });
 
-  const [selectedOption, setSelectedOption] = useState("");
-  const handleOptionChange = (e) => {
-    setSelectedOption(e.target.value);
-  };
+  // const [selectedOption, setSelectedOption] = useState("");
+  // const handleOptionChange = (e) => {
+  //   setSelectedOption(e.target.value);
+  // };
 
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => setIsOpen(true);
   const closeModal = () => {
     setIsOpen(false);
-    setFormSubmitted(false);
+    // setFormSubmitted(false);
   };
 
-  const handleChange = (name, value) => {
-    setFormData((prevData) => ({ ...prevData, [name]: value }));
-  };
+  // const handleChange = (name, value) => {
+  //   setFormData((prevData) => ({ ...prevData, [name]: value }));
+  // };
 
-  const [result, setResult] = useState("");
+  // const [result, setResult] = useState("");
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
+  // const onSubmit = async (event) => {
+  //   event.preventDefault();
+  //   setResult("Sending....");
+  //   const formData = new FormData(event.target);
 
-    formData.append("access_key", "0d42edc6-65b0-4b59-8960-8f883bc43380");
+  //   formData.append("access_key", "0d42edc6-65b0-4b59-8960-8f883bc43380");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
+  //   const response = await fetch("https://api.web3forms.com/submit", {
+  //     method: "POST",
+  //     body: formData,
+  //   });
 
-    const data = await response.json();
+    // const data = await response.json();
 
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-  };
-  const [message, setMessage] = useState("");
+  //   if (data.success) {
+  //     setResult("Form Submitted Successfully");
+  //     event.target.reset();
+  //   } else {
+  //     console.log("Error", data);
+  //     setResult(data.message);
+  //   }
+  // };
+  // const [message, setMessage] = useState("");
 
-  const handleMessageChange = (e) => {
-    setMessage(e.target.value);
-  };
+  // const handleMessageChange = (e) => {
+  //   setMessage(e.target.value);
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert(`Message submitted: ${message}`);
-    setMessage("");
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   alert(`Message submitted: ${message}`);
+  //   setMessage("");
+  // };
 
   return (
     <>
@@ -106,15 +104,9 @@ const Career = () => {
       {/* Modal toggle */}
       <button
         onClick={openModal}
-        // className=" fixed transform -translate-x-1/2 -translate-y-1/2 bg-[#E79F30] md:text-xl lg:text-2xl text-xl rounded-md shadow-md text-white"
-        // type="button"
-        // style={{
-        //   writingMode: "vertical-rl",
-        //   textOrientation: "mixed",
-        //   transform: "rotate(180deg)",
-        // }}
+       
       >
-         <img className=' w-full' src={img63} alt='' />
+         <img className=' w-full ' src={img63} alt='' />
       </button>
 
       {/* Main modal */}
@@ -318,7 +310,7 @@ const Career = () => {
 
          <div className=" max-w-screen-xl mx-auto lg:mt-16 ">
         <div className="hidden justify-center items-center lg:flex md:flex lg:flex-row md:flex-row lg:gap-4 gap-10">
-          <div className="flex flex-col h-[333px] lg:w-60 md:w-64   shadow-2xl rounded-2xl border ">
+          <div className="flex flex-col h-[333px] lg:w-60 md:w-64   md:mt-16 shadow-2xl rounded-2xl border ">
             <img src={img71} alt="" className="    md:w-80 w-60 -mt-4 " />
             <h1 className='lg:w-72 font-semibold  p-3  mt-0.5 mx-20 '>Doctors</h1>
             <p className="lg:w-56 mx-3.5 text-xs -mt-2 ">
@@ -329,7 +321,7 @@ all patients.
             </p>
           </div>
 
-           <div className="flex flex-col h-[333px] lg:w-60 md:w-64   shadow-2xl rounded-2xl border ">
+           <div className="flex flex-col h-[333px] lg:w-60 md:w-64   md:mt-16 shadow-2xl rounded-2xl border ">
             <img src={img72} alt="" className="     md:w-80   w-60 -mt-4 " />
             <h1 className='lg:w-72 font-semibold  p-3  mt-0.5 mx-20 '>Nurses</h1>
             <p className="lg:w-56 mx-3.5 text-xs -mt-2 ">
@@ -339,7 +331,7 @@ care for holistic recovery.
             </p>
           </div>
 
-          <div className="flex flex-col h-[333px] lg:w-60 md:w-64   shadow-2xl rounded-2xl border ">
+          <div className="flex flex-col h-[333px] lg:w-60 md:w-64  md:mt-16  shadow-2xl rounded-2xl border ">
             <img src={img73} alt="" className="    md:w-80    w-60 -mt-4 " />
             <h1 className='lg:w-72 font-semibold  p-3  mt-0.5 mx-10 '>Administrative Staff</h1>
             <p className="lg:w-56 mx-3.5 text-xs -mt-2 ">

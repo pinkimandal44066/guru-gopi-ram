@@ -14,20 +14,22 @@ const About = () => {
      lg:left-[10%] lg:gap-[450px] lg:items-center"
         >
           <div
-            className=" lg:text-2xl text-xl font-bold shadow-2xl  bg-white rounded-md p-4 py-2 gap-10
-        lg:-mt-0  md:-mt-0 -mt-16 sm:mx-36 sm:-mt-28 lg:mx-0 md:mx-0  "
+            className=" lg:text-2xl text-xl font-bold shadow-2xl lg:bg-white rounded-md p-4 py-2 gap-10
+        lg:-mt-0  md:-mt-32  -mt-16 sm:mx-0 sm:-mt-28 lg:mx-0 md:mx-10  "
           >
-            <h1 className="  "> About Guru Gopiram Hospital</h1>
+            <h1 className=" sm:text-sm lg:text-xl "> About Guru Gopiram Hospital</h1>
           </div>
           <div
-            className=" lg:mt-0 md:mt-0 mt-10 mx-7 sm:mx-36 sm:px-7 sm:mt-20
-       lg:mx-0 md:mx-0 "
+            className=" lg:mt-0 md:-mt-32 md:mx-24 mt-10 mx-7 sm:mx-52     sm:px-7 sm:-mt-10
+       lg:mx-0  "
           >
-            <button className="bg-[#086AAE] text-white text-xs py-2.5 px-6  rounded-full ">
+            <button className="bg-[#086AAE] text-white text-xs lg:py-2.5 lg:px-6 md:px-5 sm:px-3
+             px-6 py-2.5 rounded-full ">
               Enquiry Now
             </button>
 
-            <button className="text-[#086AAE] ml-5 border-[#086AAE] border text-xs py-2.5 px-6 rounded-full bg-white">
+            <button className="text-[#086AAE] ml-5 border-[#086AAE] border text-xs lg:py-2.5 lg:px-6 md:px-5 sm:px-3 
+            px-6 py-2.5 rounded-full bg-white">
               Find A Doctor
             </button>
           </div>
@@ -37,21 +39,31 @@ const About = () => {
           <h1 className="lg:text-2xl md:text-2xl text-xl">About Us</h1>
           <span className="">The Guru Gopiram Hospital</span>
           <span>
-            is committed to advanced medical care through innovative and
-            efficient services, creating an environment of continued quality
-            improvement and expertise of the best physicians. We utilise the
-            most recent medical technologies, advanced clinical methods and
-            develop protocols to improve our outcomes ensuring the good health
-            of the community around us.
+            is your trusted healthcare destination in Asansol. We are proud to be a 113-bedded multi-specialty hospital dedicated to providing comprehensive medical care with excellence and compassion. Filling a huge lacuna in tertiary healthcare in the Asansol region Guru Gopiram Hospital has kept its promise of delivering quality healthcare using ethical practices in a transparent set up. We deliver excellent clinical outcome with superior patient care in a transparent manner within a safe environment.
+Our motto is “Making quality healthcare affordable”
+
+Specialties and Services:
+
+* Multi-Specialty Care: Our hospital offers a wide range of medical services, including neurology, cardiology, gastroenterology, general medicine, general surgery, gynecology, oral and maxillofacial surgery, ENT, and dental care.
+* Super Specialization: We excel in super-specialized areas such as neuro medicine, cardiology, and gastroenterology, ensuring access to advanced treatments and expertise.
+* State-of-the-Art Facilities: Equipped with advanced technology, our hospital boasts a modular operation theatre, in-house laboratory, and departments fully equipped for emergencies, dialysis, and NICU services.
+* Comfortable Accommodations: Patients enjoy well-maintained and spacious cabins furnished with all essential amenities for a comfortable and pleasant stay.
+* Skilled ICU Staff: Our Intensive Care Unit (ICU) is staffed with highly skilled professionals providing round-the-clock care for critically ill patients.
+* Emergency Services: Our Emergency Department is operational 24/7, supported by skilled teams and advanced equipment, ensuring prompt and efficient care during emergencies.
+* Ambulance Services: With our dedicated ambulance fleet, we ensure timely transportation of patients, providing peace of mind in critical situations.
+* Diagnostic Excellence: Our hospital offers comprehensive diagnostic services, including x-ray, ultrasound, and CT scan, facilitating accurate and timely diagnosis for effective treatment planning.
+
+At Guru Gopiram Hospital, we are committed to your well-being. With a focus on excellence, compassion, and accessibility, we strive to be your trusted healthcare partner. Your health is our priority, and we are here to serve you with dedication and care.
           </span>
         </div>
 
-        <div className="lg:mt-16 mt-12 bg-[#f6f2f2] lg:h-72 h-[515px]  ">
+        <div className="lg:mt-16 mt-12 bg-[#f6f2f2] lg:h-72 h-[315px] sm:h-[550px] ">
           <div
             className="flex justify-center  lg:gap-3 g:flex-row md:flex-row flex-col 
 items-center max-w-screen-xl lg:mx-auto mx-5"
           >
-            <div className="shadow-2xl lg:w-[450px] lg:h-56 h-52 w-[370px] rounded-xl bg-white   lg:mt-8 mt-10 ">
+            <div className="shadow-2xl lg:w-[450px] lg:h-56 h-52 w-[370px] rounded-xl bg-white 
+            lg:mt-8 mt-10 md:mx-10 ">
               <img
                 src={img48}
                 alt=""
@@ -60,10 +72,10 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
               <h1 className="mx-[42%] text-xl text-[#086AAE] mt-1 font-semibold">
                 Vision
               </h1>
-              <p className="mt-2 lg:text-sm lg:ml-6 text-xs ml-2">
+              <p className="mt-2 lg:text-sm lg:ml-6 text-xs ml-5">
                 To create a world-class integrated healthcare delivery system{" "}
               </p>
-              <p className="lg:ml-11 lg:text-sm text-xs ml-4">
+              <p className="lg:ml-11 lg:text-sm text-xs ml-7">
                 {" "}
                 in India, entailing the finest medical skills combined with
               </p>
@@ -72,7 +84,7 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
               </p>
             </div>
 
-            <div className="shadow-2xl lg:w-[450px] lg:h-56 h-52 w-[370px] rounded-xl bg-white   lg:mt-8 mt-6">
+            <div className="shadow-2xl lg:w-[450px] lg:h-56 h-52 w-[370px] rounded-xl bg-white    lg:mt-8 mt-10">
               <img
                 src={img49}
                 alt=""
@@ -81,7 +93,7 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
               <h1 className="mx-[42%] text-xl text-[#086AAE] mt-1 font-semibold">
                 Mission
               </h1>
-              <p className="mt-2 lg:text-sm lg:ml-6 text-xs ml-2">
+              <p className="mt-2 lg:text-sm lg:ml-6 text-xs ml-6">
                 To be a globally respected healthcare organisation known for{" "}
               </p>
               <p className="lg:ml-16 lg:text-sm text-xs ml-10 ">
@@ -93,7 +105,7 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
 
 
 
-       <div className="lg:text-2xl md:text-2xl  text-xl mt-20  max-w-screen-xl  mx-8 lg:mx-48">
+       <div className="lg:text-2xl md:text-2xl  sm:text-2xl text-xl sm:mt-10 mt-56  max-w-screen-xl  mx-8 lg:mx-48">
        <h1 >Our Values</h1>
        </div>
 

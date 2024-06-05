@@ -57,7 +57,7 @@ At Guru Gopiram Hospital, we are committed to your well-being. With a focus on e
           </span>
         </div>
 
-        <div className="lg:mt-16 mt-12 bg-[#f6f2f2] lg:h-72 h-[315px] sm:h-[550px] ">
+        <div className="lg:mt-16 mt-12 bg-[#f6f2f2] lg:h-72 h-[315px] sm:h-[550px] md:h-[300px] ">
           <div
             className="flex justify-center  lg:gap-3 g:flex-row md:flex-row flex-col 
 items-center max-w-screen-xl lg:mx-auto mx-5"
@@ -105,7 +105,7 @@ items-center max-w-screen-xl lg:mx-auto mx-5"
 
 
 
-       <div className="lg:text-2xl md:text-2xl  sm:text-2xl text-xl sm:mt-10 mt-56  max-w-screen-xl  mx-8 lg:mx-48">
+       <div className="lg:text-2xl md:text-2xl  sm:text-2xl text-xl sm:mt-10  mt-56  max-w-screen-xl  mx-8 lg:mx-48">
        <h1 >Our Values</h1>
        </div>
 

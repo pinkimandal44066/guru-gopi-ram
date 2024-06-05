@@ -3,7 +3,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import img1 from '../../../public/images/img1.png'
 import img2 from '../../../public/images/img2.png'
 import img3 from '../../../public/images/img3.png'
-import photo2 from '../../../public/images/photo2.png'
+// import photo2 from '../../../public/images/photo2.png'
+import img65 from '../../../public/images/img65.png'
+import img66 from '../../../public/images/img66.png'
+import img67 from '../../../public/images/img67.png'
+import img68 from '../../../public/images/img68.png'
+import img69 from '../../../public/images/img69.png'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -62,14 +67,14 @@ const Homesix= () => {
 
     
     >
-      <SwiperSlide><img src={img1} alt="img1"  /></SwiperSlide>
-      <SwiperSlide><img src={img2} alt="img2" /></SwiperSlide>
-      <SwiperSlide><img src={img3} alt="img3" /></SwiperSlide>
-      <SwiperSlide><img src={img1} alt="photo4" /></SwiperSlide>
-      <SwiperSlide><img src={img2} alt="photo5" /></SwiperSlide>
-      <SwiperSlide><img src={img3} alt="photo4" /></SwiperSlide>
-      <SwiperSlide><img src={img1} alt="photo3" /></SwiperSlide>
-      <SwiperSlide><img src={img2} alt="photo4" /></SwiperSlide>
+      <SwiperSlide><img src={img65} alt="img1"  /></SwiperSlide>
+      <SwiperSlide><img src={img66} alt="img2" /></SwiperSlide>
+      <SwiperSlide><img src={img67} alt="img3" /></SwiperSlide>
+      <SwiperSlide><img src={img68} alt="photo4" /></SwiperSlide>
+      <SwiperSlide><img src={img69} alt="photo5" /></SwiperSlide>
+      {/* <SwiperSlide><img src={img65} alt="photo4" /></SwiperSlide>
+      <SwiperSlide><img src={img66} alt="photo3" /></SwiperSlide>
+      <SwiperSlide><img src={img67} alt="photo4" /></SwiperSlide> */}
     </Swiper>
   </div>
 
@@ -101,17 +106,21 @@ const Homesix= () => {
           }}
         >
         <SwiperSlide>
-            <img src={img1} className=" h-96 w-96" />
+            <img src={img65} className=" h-80 w-96" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img3} className=" h-96 w-96" />
+            <img src={img66} className=" h-80 w-96" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img1} className=" h-96 w-96" />
+            <img src={img67} className=" h-80 w-96" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img src={img2} className="h-96 w-96 " />
+            <img src={img68} className="h-80 w-full " />
+          </SwiperSlide>
+          
+          <SwiperSlide>
+            <img src={img69} className="h-80 w-96 " />
           </SwiperSlide>
         </Swiper>
       </div>

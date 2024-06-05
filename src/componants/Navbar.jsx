@@ -11,6 +11,20 @@ import { NavLink } from "react-router-dom";
 import { IoMdArrowDropright } from "react-icons/io";
 import { MdOutlineCall } from "react-icons/md";
 
+import img01 from '../../public/images/img01.png'
+import img02 from '../../public/images/img02.png'
+import img03 from '../../public/images/img03.png'
+import img04 from '../../public/images/img04.png'
+
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+import Hamburger from "./Hamburger";
+
 const Navbar = () => {
   const [isPatientMenuOpen, setIsPatientMenuOpen] = useState(false);
   const togglePatientMenu = () => {
@@ -306,7 +320,7 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline  transition-all duration-300  ease-in-out transform font-medium  hover:scale-105  `
               }
             >
-              Career
+           <NavLink to='/career'>   Career</NavLink>
             </h1>
             <IoMdArrowDropdown className="mt-1.5" />
           </div>
@@ -534,52 +548,25 @@ const Navbar = () => {
       {/* hamburger  04.06.2024*/}
 
       {isSideMenuOpen && (
-        <div className="fixed top-0 h-screen shadow-lg w-screen lg:hidden md:hidden sm:hidden bg-white backdrop-blur-sm z-[9999]">
+        <div className="fixed top-0  shadow-lg w-screen -mt-10 h-fit
+        lg:hidden md:hidden sm:hidden  bg-white z-[9999]">
           <div className="shadow-lg p-5">
             <div className="flex justify-between items-center -mx-2">
               <div className="flex gap-3">
-                {/* <IoCloseOutline
-                  onClick={() => setMenu(false)}
-                  className="text-3xl  cursor-pointer text-[#086AAE] rounded-md  border-2 border-[#086AAE]"
-
-                  
-                /> */}
+              
               </div>
             </div>
 
-            {/* PatientMenuOpen */}
-
-            {/*             
-            <div className="flex mt-10  cursor-pointer  mx-0 sm:mx-20 md:mx-28 justify-between items-center ">
-               
-           <NavLink to='/'>
-               
-           <div>
-              <h4 className="flex  text-xl hover:text-[#086AAE] duration-200" onClick={() => setShowServices(!showServices)}>
-                      Patient 
-                      
-            </h4>
-              </div>
-              
-           </NavLink>
-
-              <div>
-              <IoMdArrowDropright  className="text-2xl hover:text-[#086AAE] duration-200"/>
-              </div>
-                     
-                    
-                    
-                
-               
-            </div> */}
+          
           </div>
-          {/* first part  */}
-          <div className="bg-[#086AAE] top-0">
+      
+          <div className="bg-[#086AAE] ">
             <nav
               style={{ fontFamily: "Inter, sans-serif" }}
-              className="max-w-screen-xl lg:mx-auto mx-2 p-3 flex cursor-pointer justify-between items-center text-white"
+              className="max-w-screen-xl lg:mx-auto mx-2 p-3 flex cursor-pointer 
+              justify-between items-center text-white"
             >
-              {/* Left Side: Social Media Icons */}
+           
               <div className="flex lg:gap-4 gap-3 text-xs lg:text-base">
                 <FaFacebook className="" />
                 <FaInstagram className="" />
@@ -587,7 +574,7 @@ const Navbar = () => {
                 <FaLinkedin className="text-white" />
               </div>
 
-              {/* Right Side: Links */}
+      
               <div className=" flex lg:gap-4  gap-3 lg:text-sm text-[9px]">
                 <h1 className="text-white hover:text-gray-300">
                   Privacy Policy
@@ -598,10 +585,10 @@ const Navbar = () => {
             </nav>
           </div>
 
-          {/* second part  */}
+      
           <div className="max-w-screen-xl lg:mx-auto mx-2">
             <div className="flex justify-between items-center py-2">
-              {/* Hospital Logo (on the left) */}
+      
               <NavLink to="/" className="flex items-center">
                 <img
                   src={logo}
@@ -610,7 +597,6 @@ const Navbar = () => {
                 />
               </NavLink>
 
-              {/* Emergency Button */}
               <div className="flex items-center text-[10px] lg:text-base ">
                 <button className="border border-[#086AAE] bg-white text-[#086AAE] lg:px-4 lg:py-2 p-1.5 rounded-md hover:bg-[#086AAE] hover:text-white transition duration-300 ">
                   Emergency
@@ -622,14 +608,14 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* mobile part */}
+
+
+
+   
           <div className="p-4 z-[999] top-20 -mt-5  lg:hidden md:hidden sm:hidden  ">
             <div className="mt-1 flex justify-between  ">
               <section className="flex items-center gap-11">
-                {/* <IoCloseOutline
-              onClick={() => setMenu(true)}
-              className="text-3xl mt-2.5 cursor-pointer text-[#086AAE] rounded-md  border-2 border-[#086AAE] "
-            /> */}
+            
 
                 <FiMenu
                   onClick={() => setMenu(false)}
@@ -651,12 +637,13 @@ const Navbar = () => {
           </div>
 
           <div>
+            
             <div className="flex  p-6  cursor-pointer  mx-0 sm:mx-20 md:mx-28 justify-between items-center ">
-              <NavLink to="/">
+              <NavLink to="/patient">
                 <div>
                   <h4
                     className="flex  text-xl hover:text-[#086AAE] duration-200"
-                    onClick={() => setShowServices(!showServices)}
+                  
                   >
                     Patient
                   </h4>
@@ -719,7 +706,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="flex  p-6  cursor-pointer  mx-0 sm:mx-20 md:mx-28 justify-between items-center ">
+            {/* <div className="flex  p-6  cursor-pointer  mx-0 sm:mx-20 md:mx-28 justify-between items-center ">
               <NavLink to="/">
                 <div>
                   <h4
@@ -734,7 +721,36 @@ const Navbar = () => {
               <div>
                 <IoMdArrowDropright className="text-2xl hover:text-[#086AAE] duration-200" />
               </div>
+            </div> */}
+
+
+<div
+          className="relative"
+          onMouseEnter={toggleContactMenu}
+          onMouseLeave={toggleContactMenu}
+        >
+          <div className="flex cursor-pointer text-xl p-6 justify-between items-center">
+            <h1
+              className={({ isActive }) =>
+                `duration-200 ${
+                  isActive ? "text-[#C074B3] font-bold" : "text-black"
+                } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-[#C074B3] hover:font-bold lg:p-0 hover:underline  transition-all duration-300  ease-in-out transform font-medium  hover:scale-105  `
+              }
+            >
+              <NavLink to="/contact"> Contact Us </NavLink>
+            </h1>
+            <IoMdArrowDropright className="text-2xl " />
+
+          </div>
+          {isContactMenuOpen && (
+            <div
+              id="mega-menu-full-image-dropdown"
+              
+            >
+             
             </div>
+          )}
+        </div>
 
             <div className="flex  p-6  cursor-pointer  mx-0 sm:mx-20 md:mx-28 justify-between items-center ">
               <NavLink to="/">
@@ -772,7 +788,40 @@ const Navbar = () => {
               
             </div>
 
+            <div className="flex mt-10 lg:hidden md:hidden sm:hidden mx-6  items-center  justify-center   ">
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={80}
+          freeMode={true}
+          loop={true}
+          pagination={true}
+      modules={[EffectCoverflow, Pagination, Navigation]}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            640: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+            },
+          }}
+        >
+          <SwiperSlide>
+            <img src={img01} className="w-80 " />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img02} className="w-80 " />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img03} className="w-80 " />
+          </SwiperSlide>
 
+          <SwiperSlide>
+            <img src={img04} className="w-80 rounded-2xl " />
+          </SwiperSlide>
+        </Swiper>
+      </div>
 
             
           </div>
@@ -780,7 +829,10 @@ const Navbar = () => {
 
 
 
-     {/* Mobile screen */}
+
+      
+
+
 
      <div className='flex lg:hidden md:hidden sm:hidden  bottom-0 fixed z-[999]
     '>
@@ -806,6 +858,12 @@ const Navbar = () => {
 
 
       )}
+
+
+
+
+
+      <Hamburger />
     </div>
   );
 };

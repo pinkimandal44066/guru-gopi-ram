@@ -1,5 +1,6 @@
 import React from 'react'
-import Hospital from '../../../public/images/Hospital.png'
+// import Hospital from '../../../public/images/Hospital.png'
+import img70 from '../../../public/images/img70.png'
 const HomeFive = () => {
   return (    
       <div className=''>
@@ -15,7 +16,7 @@ const HomeFive = () => {
             </div>
 
             <div className="lg:w-2/5 md:w-1/2 w-full lg:-ml-16 md:mt-16 md:-ml-12 relative order-1 md:order-2 lg:mt-12 ">
-                <img src={Hospital} alt="Hospital Image" className="w-full h-full object-cover rounded-2xl -mt-12" />
+                <img src={img70} alt="Hospital Image" className="w-full h-full object-cover rounded-2xl -mt-12" />
             </div>
         </div>
     </div>

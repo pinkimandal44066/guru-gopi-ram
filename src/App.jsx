@@ -16,6 +16,7 @@ import Patientcare from "./componants/Patient/Patientcare";
 import Bookappointment from "./componants/Appointment/Bookappointment";
 import Bookappointmentone from "./componants/Appointment/Bookappointmentone";
 import Patientone from "./componants/Patient/Patientone";
+import Career from "./componants/Career";
 
 
 const App = () => {
@@ -38,7 +39,8 @@ const App = () => {
             <Route path="/patient" element={<Patientcare />} />
             <Route path="/book" element={<Bookappointment />} />
             <Route path="/appointment" element={<Bookappointmentone />} />
-       
+            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/career" element={<Career />} />
           </Route>
         </Routes>
       </Router>
